@@ -230,10 +230,10 @@
 .btnrow {
     position: relative;
     top: -30px;
-    right: 35%;
+    right: auto;
     margin-top: 0px;
     align-items: center;
-    text-align: end;
+    text-align: center;
     text-emphasis-position: above;
     z-index: 2
 }
@@ -1663,6 +1663,7 @@ section#gallerySection.btn {
   border-radius: 20px/50px;
   background-clip: padding-box;
   text-align: center;
+   
 }
 
 .button {
@@ -1689,6 +1690,8 @@ section#gallerySection.btn {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+     overflow-x:auto;
+　overflow-y:hidden;
 z-index: 5;
 }
 .overlay:target {
@@ -1701,7 +1704,7 @@ z-index: 5;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 50%;
+  width: 70%;
   position: relative;
   transition: all 5s ease-in-out;
     
@@ -1737,7 +1740,8 @@ z-index: 5;
     width: 70%;
   }
   .popup{
-    width: 70%;
+    width: 80%;
+          height: 80%;
   }
 }
 
