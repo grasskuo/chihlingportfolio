@@ -1040,7 +1040,7 @@ section#articleSection img {
 }
 
 hr.style1 {
-    border-top: 1px dashed #8c8b8b;
+    border-top: 3px dashed rgba(140, 139, 139, 0.13);
 }
 
 hr.style13 {
@@ -1076,16 +1076,23 @@ hr.style13 {
 
 .articleS {
     font-family: 'lato';
-    text-align: justify;
+    text-align: left;
     line-height: 25px;
     color: #20272f;
 }
+.articleSS {
+    font-family: 'lato';
+    text-align: left;
+    line-height: 20px;
+    color: #2967ad;
+}
 .articleS h4{
     font-family: 'lato';
-    text-align: justify;
+    text-align: left;
     line-height: 10px;
     color: #20272f;
 }
+
 
 .articleW {
     font-family: 'lato';
@@ -1526,7 +1533,10 @@ section#gallerySection .row {
     padding: top;
     margin-top: -40px;
     padding-bottom: 30px;
-    z-index: 2
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 @media (min-width: 767px) {
@@ -1538,7 +1548,8 @@ section#gallerySection .row {
 
 section#gallerySection [class^='col-'] {
     padding: 10;
-    position: relative
+    position: relative;
+    margin-bottom: 30px;
 }
 
 section#gallerySection [class^='col-']:hover h5 {
@@ -1639,7 +1650,96 @@ section#gallerySection.btn {
         transition: all .5s ease
     }
 }
+/*-------------------------*/
 
+/* $Popup
+---------------------------*/
+.box {
+  width: 60%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+z-index: 5;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+    
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 70%;
+  overflow: auto;
+    
+}
+
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
 
 /*-------------------------*/
 
