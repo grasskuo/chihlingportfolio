@@ -1450,6 +1450,7 @@ section#gallerySection .row {
     padding-bottom: 30px;
     z-index: 2;
  overflow: auto;
+  
     
 }
 
@@ -1464,6 +1465,7 @@ section#gallerySection [class^='col-'] {
     padding: 10;
     position: relative;
 margin-bottom: 30px;
+    
 }
 
 section#gallerySection [class^='col-']:hover h5 {
@@ -1487,10 +1489,10 @@ section#gallerySection h5 {
     text-align: center;
     font-size: 6px;
     color: white;
-    text-shadow: 0 0 3px rgba(0,
+    text-shadow: 0 0 5px rgba(0,
         0,
         0,
-        0.1);
+        0.5);
     opacity: 0;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -1501,7 +1503,9 @@ section#gallerySection h5 {
 section#gallerySection img {
     position: relative;
     z-index: 1;
-    width: 100%;
+      height:auto;
+    width:100%;
+
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -moz-transition: all .5s ease;
@@ -1530,7 +1534,7 @@ section#gallerySection.btn {
 
     section#gallerySection img {
         position: relative;
-        right: 20px;
+        right: 0px;
         margin: 30px;
         z-index: 1;
         width: 100%;
@@ -1617,6 +1621,7 @@ z-index: 5;
   background: #fff;
   border-radius: 5px;
   width: 70%;
+    height: 88%;
   position: relative;
   transition: all 5s ease-in-out;
     
