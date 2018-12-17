@@ -879,6 +879,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         padding-bottom: 0;
             background-size: cover;
     background-attachment: fixed;
+        background-position:center;
     }
 
     header.jumbotron .header-content {
