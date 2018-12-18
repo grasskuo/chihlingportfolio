@@ -819,7 +819,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     color: #eee
 }
 */
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 991px) {
     header.jumbotron h1 {
         position: relative;
         top: 0px;
@@ -840,7 +840,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         padding-bottom: 0;
         background-size: cover;
         background-attachment: fixed;
-        background-position: center;
+        background-position: top;
         
     }
 
@@ -1748,6 +1748,7 @@ section#contactSectionAbout .icon {
 @media (max-width: 768px) {
     section#contactSection {
         background-image: url(../banglu-cheng-713523-unsplash.jpg);
+        
         background-position: left;
         background-attachment: local;
         background-size: 260%;
