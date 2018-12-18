@@ -1748,7 +1748,6 @@ section#contactSectionAbout .icon {
 @media (max-width: 768px) {
     section#contactSection {
         background-image: url(../banglu-cheng-713523-unsplash.jpg);
-        ;
         background-position: left;
         background-attachment: local;
         background-size: 260%;
