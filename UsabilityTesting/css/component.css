@@ -954,6 +954,45 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
 }
 */
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+ header.jumbotron {
+        height: 100hv;
+        background-position: left;
+        background-attachment: cover;
+        width: 100%;
+        position: relative;
+        padding-bottom: 0
+    }
+
+    header.jumbotron .container {
+        position: relative;
+        z-index: 5
+    }
+
+    header.jumbotron .header-content {
+        display: inline-block
+    }
+
+    header.jumbotron .header-content h1 {
+        font-size: 50px;
+        padding-left: 30px;
+        z-index: 10
+    }
+
+    header.jumbotron .header-content h3 {
+        font-size: 30px;
+        padding-left: 30px;
+        position: relative;
+    }
+
+    header.jumbotron .header-scroll-down-btn {
+        position: relative;
+        bottom: 0
+    }}
+/*---------------------------*/
 /* $header-About
 ---------------------------*/
 .hero {
