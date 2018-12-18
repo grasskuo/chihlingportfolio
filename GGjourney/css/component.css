@@ -806,7 +806,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     header.jumbotron {
         height: 100hv;
         background-position: left;
-        background-attachment: cover;
+        background-attachment: local;
         width: 100%;
         position: relative;
         padding-bottom: 0
@@ -1786,6 +1786,16 @@ text-shadow: (0.5,1,1)
 
 }
 
+section#contactSection a {
+    text-align: center;
+    
+    font-weight: bolder;
+    font-family: 'lato';
+    color: #ffffff;
+text-shadow: (0.5,1,1)
+
+}
+
 section#contactSectionAbout h5 {
     text-align: center;
     font-family: 'lato';
@@ -1813,6 +1823,18 @@ section#contactSectionAbout .icon {
 }
 
 @media (max-width: 768px) {
+    section#contactSection {
+    background-image: url(../img/justin-luebke-43531-unsplash.jpg)
+    ;
+    background-position: bottom(100px);
+    background-position: left(30px);
+    background-attachment:local;
+    background-size: cover;
+    height: 400px;
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 30px
+}
     section#contactSection {
         padding-top: 30px;
         padding-bottom: 30px;
