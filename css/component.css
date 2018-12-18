@@ -859,7 +859,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
 
     header.jumbotron {
         height: 100hv;
-        background-position: left;
+        background-position: center;
         background-attachment: cover;
         background-attachment: local;
         width: 100%;
