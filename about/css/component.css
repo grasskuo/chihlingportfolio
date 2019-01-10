@@ -1232,6 +1232,12 @@ section#skillSection h5 {
     .experience {
         padding-top: 10px;
         padding-bottom: 90px;
+         0.89);
+    background-image: url(../urban-long-exposure-night.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
     }
 }
 section#experience h2 {
@@ -1476,9 +1482,18 @@ section#contactSectionAbout {
 section#contactSection h5 {
     text-align: center;
     top:50px;
-    font-family: inherit
+    font-family: inherit;
 }
 section#contactSectionAbout h5 {
+    text-align: center;
+    font-family: inherit;
+    color: rgba(8,
+    34,
+    105,
+    0.97)
+}
+
+section#contactSectionAbout a {
     text-align: center;
     font-family: inherit;
     color: rgba(8,
