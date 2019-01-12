@@ -236,11 +236,11 @@
 
 .btnpdf {
     position: relative;
-    top: 100px;
-    right: 80px;
-    margin-top: 50px;
+    top: 80px;
+    right: 0px;
+    margin-top: 10px;
     align-items: center;
-    text-align: center;
+    text-align: right;
     text-emphasis-position: above;
     z-index: 2
     
@@ -255,9 +255,9 @@ basicIntronSection.btn--secondary:hover,
 
 @media screen and (max-width: 480px) {
      .btnpdf {
-    position: relative;
-    top: 100px;
-    right: 10px;
+    position:relative;
+    top: 50px;
+    right: 0px;
     margin-top: 50px;
     align-items: center;
     text-align: center;
@@ -301,9 +301,9 @@ basicIntronSection.btn--secondary:hover,
 @media screen and (min-width: 768px) {
     .btn-group .btn {
            position: relative;
-    top: 30px;
+    top: 0px;
     bottom: 0px;
-    right: -430px;
+    right: 0px;
     }
 }
 
@@ -981,7 +981,8 @@ header.jumbotron h3 {
 }
 .row {
     background-color: none;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 .col {
     height: 300px;
@@ -1055,8 +1056,8 @@ section#basicIntronSection .portrait {
 
 
 .textcontainer{ 
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 130px;
+    margin-right: 130px;
     margin-top: 30px;
     margin-bottom: 10px;
     text-align:center;
@@ -1127,22 +1128,29 @@ section#skillSection h5 {
     border-radius: 6px
 }
 .skill {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    z-index: 2;
+}
+.skill-card__text1{
+    text-align: center;
 }
 @media (max-width: 768px) {
     .skill {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 30px;
     }
 }
 .skill-group {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    
 }
+
 .skill-card {
     padding-left: 32px;
     margin-bottom: 32px;
+    
 }
 .skill-card__inner {
     background-color: #fefefe;
@@ -1154,6 +1162,7 @@ section#skillSection h5 {
     padding: 24px;
     padding-left: 48px;
 }
+
 .skill-card__title {
     color: #e881a7;
     font-family: 'Raleway',
@@ -1474,7 +1483,8 @@ section#contactSectionAbout {
     0.81);
     margin-top: 0px;
     padding-top: 30px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+    z-index: 2
 }
 #contactSection.row {
     position: absolute;
