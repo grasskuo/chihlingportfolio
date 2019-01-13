@@ -229,7 +229,7 @@
 
 .btnrow {
     position: relative;
-    top: -30px;
+    top: 20px;
     right: auto;
     margin-top: 0px;
     align-items: center;
@@ -270,7 +270,7 @@ basicIntronSection.btn--secondary:hover,
 
     .btnrow {
         position: relative;
-        top: 0px;
+        top: 15px;
         right: 0px;
         margin-top: 0px;
         align-items: center;
@@ -1784,7 +1784,7 @@ section#contactSection {
     background-size: cover;
     height: 400px;
     margin-top: 100px;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 30px
 }
 
@@ -1848,7 +1848,7 @@ section#contactSectionAbout .icon {
 
 @media (max-width: 768px) {
     section#contactSection {
-        padding-top: 30px;
+        padding-top: 50px;
         padding-bottom: 30px;
         background-attachment: local;
         background-position: left;
@@ -1887,7 +1887,7 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .info__email {
