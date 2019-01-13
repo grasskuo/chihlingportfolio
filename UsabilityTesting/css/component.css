@@ -229,7 +229,7 @@
 
 .btnrow {
     position: relative;
-    top: -30px;
+    top: 30px;
     right: auto;
     margin-top: 0px;
     align-items: center;
@@ -1787,9 +1787,10 @@ section#contactSection {
     background-size: cover;
     height: 400px;
     margin-top: 100px;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 30px
 }
+
 
 section#contactSectionAbout {
     background-color: rgba(255,
@@ -1908,7 +1909,7 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .info__email {
@@ -1939,7 +1940,7 @@ section#contactSectionAbout .icon {
 
     .info {
         text-align: center;
-        padding-top: 0px;
+        padding-top: 25px;
         position: relative;
     }
 
