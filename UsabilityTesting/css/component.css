@@ -270,7 +270,7 @@ basicIntronSection.btn--secondary:hover,
 
     .btnrow {
         position: relative;
-        top: -50px;
+        top: 15px;
         right: 0px;
         margin-top: 0px;
         align-items: center;
@@ -1134,7 +1134,7 @@ hr.style13 {
 
 .row {
     background-color: none;
-    padding-top: 50px;
+    padding-top: 15px;
     padding-bottom: 0px;
 }
 
