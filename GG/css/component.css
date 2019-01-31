@@ -1544,8 +1544,8 @@ section#experience h2 {
 section#gallerySection .row {
     position: relative;
     padding: top;
-    margin-top: -40px;
-    padding-bottom: 30px;
+    margin-top: 0px;
+    padding-bottom: 0px;
     z-index: 2;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1721,8 +1721,9 @@ section#gallerySection.btn {
     background: #fff;
     border-radius: 5px;
     width: 70%;
+    height: 85%;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 3s ease-in-out;
 
 }
 
@@ -1748,7 +1749,7 @@ section#gallerySection.btn {
 }
 
 .popup .content {
-    max-height: 70%;
+    max-height: 85%;
     overflow: auto;
 
 }
