@@ -1041,13 +1041,13 @@ section#articleSection img {
 }
 
 hr.style1 {
-    border-top: 3px dashed rgba(140, 139, 139, 0.13);
+    border-top: 1.8px dashed rgba(140, 139, 139, 0.13);
 }
 
 hr.style13 {
     height: 10px;
     border: 0;
-    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    box-shadow: 0 5px 5px -5px #8c8b8b inset;
 }
 
 
