@@ -1724,8 +1724,9 @@ section#gallerySection.btn {
     background: #fff;
     border-radius: 5px;
     width: 70%;
+    height: 85%;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 3s ease-in-out;
 
 }
 
@@ -1751,7 +1752,7 @@ section#gallerySection.btn {
 }
 
 .popup .content {
-    max-height: 70%;
+    max-height: 85%;
     overflow: auto;
 
 }
