@@ -1046,7 +1046,7 @@ hr.style1 {
 hr.style13 {
     height: 10px;
     border: 0;
-    box-shadow: 0 5px 5px -5px #8c8b8b inset;
+    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.29) inset;
 }
 
 
