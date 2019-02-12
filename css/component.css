@@ -69,14 +69,24 @@
 
 /* lean-bg
 ---------------------*/
-
+/*
+.lean-bg--bottomm:after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 185px;
+    background-color: #393737;
+    z-index: 2;
+}
+*/
 .lean-bg--top:before,
 .lean-bg--bottom:after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 185px;
-    background-color: #fefefe;
+    height: 150px;
+    background-color: white;
     z-index: 1;
 }
 
@@ -178,16 +188,18 @@
 .btn.btn--primary:active {
     background-color: #dd6488;
 }
+/*    background-color: #dd6488;*/
+
 
 .btn.btn--secondary {
     background-color: inherit;
-    border: 1px solid #e881a7;
-    color: #e881a7;
+    border: 1px solid #eaaa7f;
+    color: #eaaa7f;
 }
 
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #eaaa7f;
     color: #fefefe;
 }
 
@@ -1019,7 +1031,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #e881a7;
+    background-color: #eaaa7f;
     text-align: center;
     text-emphasis-position: above;
     line-height: 90px;
@@ -1032,7 +1044,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     z-index: 1;
     align-self: center;
 }
-
+/*#e881a7*/
 @media (max-width: 768px) {
     .quote {
         padding-top: 10px;
