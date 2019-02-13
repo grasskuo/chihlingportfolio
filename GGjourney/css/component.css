@@ -180,13 +180,13 @@
 
 .btn.btn--secondary {
     background-color: inherit;
-    border: 1px solid #e881a7;
-    color: #e881a7;
+    border: 1px solid #eaaa7f;
+    color: #eaaa7f;
 }
 
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #eaaa7f;
     color: #fefefe;
 }
 
@@ -1046,8 +1046,9 @@ hr.style1 {
 hr.style13 {
     height: 10px;
     border: 0;
-    box-shadow: 0 5px 5px -5px #8c8b8b inset;
+    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.29) inset;
 }
+
 
 
 
@@ -1705,7 +1706,7 @@ section#gallerySection.btn {
 }
 
 .popup {
-      margin: 70px auto;
+    margin: 70px auto;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
