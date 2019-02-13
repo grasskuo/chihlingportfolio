@@ -176,13 +176,14 @@
 
 .btn.btn--secondary {
     background-color: inherit;
-    border: 1px solid #e881a7;
-    color: #e881a7;
+    border: 1px solid #7fc9ea;
+    color: #7fc9ea;
 }
 
+/*rgba(14, 70, 136, 0.69)eaaa7f*/
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #7fc9ea;
     color: #fefefe;
 }
 
@@ -596,12 +597,13 @@ nav ul.nav-list li {
 }
 @media screen and (min-width: 768px) {
     nav {
-        background-color: rgba(15, 47, 75, 0.45);
+        background-color: rgba(25, 58, 96, 0.69);
         border-bottom: 1px solid #0f476a;
         padding-top: 12px;
         padding-left: 20px;
         padding-right: 20px
     }
+/*rgba(15, 47, 75, 0.45)*/
     
     nav .brand {
         padding-left: 35px;
