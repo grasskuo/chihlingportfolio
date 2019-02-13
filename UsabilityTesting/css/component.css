@@ -175,18 +175,18 @@
 
 .btn.btn--primary:hover,
 .btn.btn--primary:active {
-    background-color: #dd6488;
+    background-color: #eaaa7f;
 }
 
 .btn.btn--secondary {
     background-color: inherit;
-    border: 1px solid #e881a7;
-    color: #e881a7;
+    border: 1px solid #eaaa7f;
+    color: #eaaa7f;
 }
 
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #eaaa7f;
     color: #fefefe;
 }
 
@@ -440,6 +440,9 @@ basicIntronSection.btn--secondary:hover,
 ---------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
 header.jumbotron:after {
     content: "";
     position: absolute;
@@ -457,7 +460,7 @@ h4,
 h5,
 h6,
 nav a {
-    font-family: 'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family: 'Merriweather', serif, 'Helvetica', 'roboto', arial, sans-serif;
     font-weight: 400
 }
 
