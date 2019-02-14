@@ -161,7 +161,7 @@
     font-size: 14px;
     text-align: center;
     font-weight: 500;
-    font-family: 'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
+    font-family: 'PT Sans Caption'; 'Amethysta''Raleway', 'Helvetica', 'roboto','arial' , 'sans-serif';
     letter-spacing: 0;
     text-decoration: none;
     background-color: #d1d2d3;
@@ -469,7 +469,8 @@ h4,
 h5,
 h6,
 nav a {
-    font-family: 'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
+
+    font-family: 'PT Sans Caption'; 'Amethysta';'Merriweather', 'serif', 'Helvetica', 'roboto', 'arial', 'sans-serif';
     font-weight: 400
 }
 
@@ -696,7 +697,7 @@ header.jumbotron {
     background-size: cover;
     background-attachment: fixed;
     background-position: center (100);
-    background-image: url(../banglu-cheng-713523-unsplash.jpg);
+    background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);
 
     background-repeat: no-repeat;
     position: relative
@@ -1325,7 +1326,7 @@ section#skillSection h5 {
         53,
         98,
         0.89);
-    background-image: url(../banglu-cheng-713523-unsplash.jpg);
+    background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);
     background-size: cover;
 }
 
@@ -1692,7 +1693,7 @@ z-index: 5;
 /* $Contact
 ---------------------------*/
 section#contactSection {
-    background-image: url(../banglu-cheng-713523-unsplash.jpg);
+    background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);
     ;
     background-position: bottom(100px);
     background-attachment: fixed;
@@ -1734,7 +1735,8 @@ section#contactSection h5 {
     text-align: center;
     top: 50px;
     font-weight: bolder;
-    font-family: Helvetica
+    font-family: 'PT Sans Caption';
+    color: #fff;
 }
 
 section#contactSectionAbout h5 {
@@ -1766,7 +1768,7 @@ section#contactSectionAbout .icon {
 
 @media (max-width: 768px) {
     section#contactSection {
-        background-image: url(../banglu-cheng-713523-unsplash.jpg);
+        background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);
         
         background-position: left;
         background-attachment: local;
