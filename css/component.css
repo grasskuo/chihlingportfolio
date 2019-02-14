@@ -161,7 +161,7 @@
     font-size: 14px;
     text-align: center;
     font-weight: 500;
-    font-family: 'PT Sans Caption'; 'Amethysta''Raleway', 'Helvetica', 'roboto','arial' , 'sans-serif';
+    font-family: 'Source Sans Pro', sans-serif;'roboto','Raleway', 'Helvetica', 'arial' , 'sans-serif';
     letter-spacing: 0;
     text-decoration: none;
     background-color: #d1d2d3;
@@ -380,7 +380,7 @@ basicIntronSection.btn--secondary:hover,
     box-sizing: border-box;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Raleway', 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family:'Source Sans Pro', sans-serif; 'Raleway', 'Helvetica', 'roboto', 'arial', 'sans-serif';
     letter-spacing: 0;
     text-decoration: none;
     color: #484848;
@@ -455,6 +455,7 @@ basicIntronSection.btn--secondary:hover,
 header.jumbotron:after {
     content: "";
     position: absolute;
+    text-align: center;
     width: 100%;
     height: 100%;
     top: 0;
@@ -470,7 +471,7 @@ h5,
 h6,
 nav a {
 
-    font-family: 'PT Sans Caption'; 'Amethysta';'Merriweather', 'serif', 'Helvetica', 'roboto', 'arial', 'sans-serif';
+    font-family:'Source Sans Pro', sans-serif, 'Amethysta';'Merriweather', 'serif', 'Helvetica',  'arial', 'sans-serif';
     font-weight: 400
 }
 
@@ -478,7 +479,7 @@ h1,
 h2,
 h4,
 h5,
-h6,
+h6, 
 a {
     color: #fff
 }
@@ -545,7 +546,7 @@ nav ul.nav-list li {
 @media screen and (max-width: 767px) {
     nav {
         background-color: white;
-        border-bottom: 1px solid #0f476a;
+/*        border-bottom: 1px solid #0f476a;*/
         z-index: 1000;
         -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -640,7 +641,7 @@ nav ul.nav-list li {
 @media screen and (min-width: 768px) {
     nav {
         background-color: rgba(15, 47, 75, 0.45);
-        border-bottom: 1px solid #0f476a;
+/*        border-bottom: 1px solid #0f476a;*/
         padding-top: 12px;
         padding-left: 20px;
         padding-right: 20px
@@ -688,6 +689,7 @@ nav ul.nav-list li {
     }
 }
 
+
 header.jumbotron {
     position: fixed;
     top: 0;
@@ -697,10 +699,9 @@ header.jumbotron {
     background-size: cover;
     background-attachment: fixed;
     background-position: center (100);
-    background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);
-
+    background-color:  #063665;
     background-repeat: no-repeat;
-    position: relative
+    position: relative;
 }
 
 header.jumbotron:after {
@@ -722,6 +723,7 @@ header.jumbotron:after {
 
 header.jumbotron .container {
     position: relative;
+    text-align: center;
     z-index: 5
 }
 
@@ -734,7 +736,8 @@ header.jumbotron img {
 }
 
 header.jumbotron .header-content {
-    margin-top: 200px
+    margin-top: 200px;
+    
 }
 
 header.jumbotron h1 {
@@ -749,6 +752,7 @@ header.jumbotron h3 {
     top: -120px;
     font-size: 40px;
     color: #fff;
+   
 }
 
 header.jumbotron .header-scroll-down-btn {
@@ -1648,7 +1652,7 @@ z-index: 5;
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 .popup .close {
   position: absolute;
@@ -1681,7 +1685,7 @@ z-index: 5;
     .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family:'Source Sans Pro', sans-serif;
      font-size:30px;
 }   
 }
@@ -1693,8 +1697,8 @@ z-index: 5;
 /* $Contact
 ---------------------------*/
 section#contactSection {
-    background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);
-    ;
+/*    background-image:;*/
+    background-color:  #0f2b6a;
     background-position: bottom(100px);
     background-attachment: fixed;
     background-size: cover;
@@ -1735,7 +1739,7 @@ section#contactSection h5 {
     text-align: center;
     top: 50px;
     font-weight: bolder;
-    font-family: 'PT Sans Caption';
+    font-family:'Source Sans Pro', sans-serif;
     color: #fff;
 }
 
@@ -1768,8 +1772,8 @@ section#contactSectionAbout .icon {
 
 @media (max-width: 768px) {
     section#contactSection {
-        background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);
-        
+/*        background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);*/
+        background-color:#0f2b6a;
         background-position: left;
         background-attachment: local;
         background-size: 260%;
@@ -1796,7 +1800,7 @@ section#contactSectionAbout .icon {
     section#contactSection h5 {
         text-align: center;
         top: 5px;
-        font-family: serif;
+        font-family:'Source Sans Pro', sans-serif;
         z-index: 1;
     }
 
