@@ -1572,7 +1572,7 @@ section#gallerySection [class^='col-'] {
 
 section#gallerySection [class^='col-']:hover h5 {
     opacity: 1;
-    font-size: 26px
+    font-size: 23px
 }
 
 section#gallerySection [class^='col-']:hover img {
@@ -1594,7 +1594,7 @@ section#gallerySection h5 {
     text-shadow: 0 0 3px rgba(0,
         0,
         0,
-        0.1);
+        0.5);
     opacity: 0;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -1662,10 +1662,10 @@ section#gallerySection.btn {
         width: 100%;
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
-        -moz-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease
     }
 }
 
