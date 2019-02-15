@@ -1132,7 +1132,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     margin-top: none;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #0f2f4b;
+    background-color: rgba(15, 47, 75, 0.95);
 }
 
 .copyright {
