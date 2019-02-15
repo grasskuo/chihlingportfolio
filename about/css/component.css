@@ -146,7 +146,7 @@
     font-size: 14px;
     text-align: center;
     font-weight: 500;
-    font-family: 'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif,'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
     letter-spacing: 0;
     text-decoration: none;
     background-color: #d1d2d3;
@@ -360,7 +360,7 @@ basicIntronSection.btn--secondary:hover,
     box-sizing: border-box;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Raleway', 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family: 'Source Sans Pro', sans-serif,'Raleway', 'Helvetica', 'roboto', arial, 'sans-serif';
     letter-spacing: 0;
     text-decoration: none;
     color: #484848;
@@ -440,7 +440,7 @@ h4,
 h5,
 h6,
 nav a {
-    font-family: 'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family: 'Source Sans Pro', sans-serif,'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
     font-weight: 400
 }
 h1,
@@ -1090,7 +1090,7 @@ section#basicIntronSection .portrait {
 ---------------------------*/
 section#skill h2 {
     color: #092b79;
-    font-family: 'Merriweather',
+    font-family: 'Source Sans Pro', sans-serif,'Merriweather',
     serif,
     'Helvetica',
     'roboto',
@@ -1167,7 +1167,7 @@ section#skillSection h5 {
 
 .skill-card__title {
     color: #e881a7;
-    font-family: 'Raleway',
+    font-family: 'Source Sans Pro', sans-serif,'Raleway',
     'Helvetica',
     'roboto',
     arial,
@@ -1253,7 +1253,7 @@ section#skillSection h5 {
 }
 section#experience h2 {
     color: #fff;
-    font-family: 'Merriweather',
+    font-family: 'Source Sans Pro', sans-serif,'Merriweather',
     serif,
     'Helvetica',
     'roboto',
