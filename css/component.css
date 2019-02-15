@@ -1059,7 +1059,6 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     margin-right: auto;
     margin-left: auto;
     margin-top: -10px;
-    margin-bottom: 50px;
     z-index: 1;
     align-self: center;
 }
@@ -1474,14 +1473,14 @@ section#experience h2 {
 ---------------------------*/
 .workscontainer {
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px
+    padding-top: 0px;
+    padding-bottom: 0px
 }
 
 section#gallerySection .row {
     position: relative;
     padding: top;
-    margin-top: -40px;
+    margin-top:0;
     padding-bottom: 30px;
     z-index: 2;
     overflow: auto;
@@ -1721,7 +1720,7 @@ section#gallerySection.btn {
 ---------------------------*/
 section#contactSection {
     /*    background-image:;*/
-    background-color: #0f2b6a;
+    background-color: #063665;
     background-position: bottom(100px);
     background-attachment: fixed;
     background-size: cover;
@@ -1796,7 +1795,7 @@ section#contactSectionAbout .icon {
 @media (max-width: 768px) {
     section#contactSection {
         /*        background-image: url(../https___www.lifeofpix.com_wp-content_uploads_2018_08_308-name6210-jj.jpg);*/
-        background-color: #0f2b6a;
+        background-color: #063665;
         background-position: left;
         background-attachment: local;
         background-size: 260%;
