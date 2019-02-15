@@ -444,6 +444,9 @@ nav a {
     font-family: 'Source Sans Pro', sans-serif,'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
     font-weight: 400
 }
+
+p {
+    font-family: 'Roboto', 'arial', 'sans-serif';}
 h1,
 h2,
 h4,
