@@ -459,8 +459,9 @@ h3,
 h4,
 h5,
 h6,
+p,
 nav a {
-    font-family: 'Merriweather', serif, 'Helvetica', 'roboto', arial, sans-serif;
+     font-family: 'Source Sans Pro', sans-serif,'Merriweather', serif, 'Helvetica', 'roboto', arial, sans-serif;
     font-weight: 400
 }
 
@@ -535,7 +536,7 @@ nav ul.nav-list li {
 @media screen and (max-width: 767px) {
     nav {
         background-color: white;
-        border-bottom: 1px solid #0f476a;
+/*        border-bottom: 1px solid #0f476a;*/
         z-index: 1000;
         -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -630,7 +631,7 @@ nav ul.nav-list li {
 @media screen and (min-width: 768px) {
     nav {
         background-color: rgba(15, 47, 75, 0.45);
-        border-bottom: 1px solid #0f476a;
+/*        border-bottom: 1px solid #0f476a;*/
         padding-top: 12px;
         padding-left: 20px;
         padding-right: 20px
@@ -1081,21 +1082,21 @@ hr.style13 {
 
 
 .articleS {
-    font-family: 'lato';
+    font-family: 'roboto';
     text-align: left;
     line-height: 25px;
     color: #20272f;
 }
 
 .articleSS {
-    font-family: 'lato';
+    font-family: 'roboto';
     text-align: left;
     line-height: 20px;
     color: #2967ad;
 }
 
 .articleS h4 {
-    font-family: 'lato';
+    font-family: 'roboto';
     text-align: left;
     line-height: 10px;
     color: #20272f;
@@ -1884,7 +1885,7 @@ section#contactSectionAbout .icon {
     section#contactSection h5 {
         text-align: center;
         top: 5px;
-        font-family: serif;
+        font-family: 'lato', sans-serif;
         color: #ffffff;
     }
 
@@ -1892,7 +1893,7 @@ section#contactSectionAbout .icon {
         text-align: center;
 
         font-weight: bolder;
-        font-family: 'lato';
+        font-family:'lato', sans-serif;
         color: #ffffff;
         text-shadow: (0.5, 1, 1)
     }
