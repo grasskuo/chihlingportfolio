@@ -1050,9 +1050,8 @@ hr.style1 {
 hr.style13 {
     height: 10px;
     border: 0;
-    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.29) inset;
+    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.11) inset;
 }
-
 
 
 
@@ -1076,14 +1075,18 @@ hr.style13 {
 .article {
     font-family: 'roboto';
     line-height: 30px;
+font-weight: 550;
+    color:#454748;
 }
 
 
 .articleS {
     font-family: 'roboto';
     text-align: left;
-    line-height: 25px;
-    color: #20272f;
+    line-height: 30px;
+    font-weight:300;
+    font-size: 18px;
+    color: #454748;
 }
 
 .articleSS {
@@ -1115,11 +1118,11 @@ hr.style13 {
     font-size: 18px;
     font-style: italic;
 }
-
 .picturenote {
     font-family: 'lato';
+    font-size: 12px;
     text-align: center;
-    color: #434546
+    color: #6d6f6f
 }
 
 
@@ -1167,7 +1170,7 @@ hr.style13 {
 }
 
 .iframe {
-    width: 560px;
+    width: 100%;
     height: 315px;
 }
 
