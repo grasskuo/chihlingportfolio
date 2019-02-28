@@ -1051,7 +1051,7 @@ hr.style1 {
 hr.style13 {
     height: 10px;
     border: 0;
-    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.29) inset;
+    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.11) inset;
 }
 
 
@@ -1076,14 +1076,18 @@ hr.style13 {
 .article {
     font-family: 'roboto';
     line-height: 30px;
+font-weight: 550;
+    color:#454748;
 }
 
 
 .articleS {
     font-family: 'roboto';
     text-align: left;
-    line-height: 25px;
-    color: #20272f;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #454748;
 }
 
 .articleSS {
@@ -1118,9 +1122,11 @@ hr.style13 {
 
 .picturenote {
     font-family: 'lato';
+    font-size: 12px;
     text-align: center;
-    color: #434546
+    color: #6d6f6f
 }
+
 
 
 .diaryStudy__content {
@@ -1883,9 +1889,10 @@ section#contactSectionAbout .icon {
     section#contactSection h5 {
         text-align: center;
         top: 5px;
-        font-family: serif;
-        color: #ffffff;
+         color: #ffffff;
+        font-family: 'lato';
     }
+
 
     section#contactSection a {
         text-align: center;
