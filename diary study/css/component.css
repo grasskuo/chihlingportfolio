@@ -1054,7 +1054,7 @@ hr.style1 {
 hr.style13 {
     height: 10px;
     border: 0;
-    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.29) inset;
+    box-shadow: 0 5px 5px -5px rgba(140, 139, 139, 0.11) inset;
 }
 
 
@@ -1079,21 +1079,24 @@ hr.style13 {
 .article {
     font-family: 'roboto';
     line-height: 30px;
+    font-weight: 550;
+    color: #454748;
 }
 
 
 .articleS {
     font-family: 'roboto';
-    text-align: ;
-    line-height: 25px;
-    color: #20272f;
-    word-break: normal;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #454748;
 }
 
 .articleSS {
     font-family: 'roboto';
     text-align: left;
-    line-height: 20px;
+    line-height: 23px;
     color: #2967ad;
 }
 
@@ -1114,7 +1117,7 @@ hr.style13 {
 
 .articleI {
     font-family: 'lato';
-    line-height: 15px;
+    line-height: 23px;
     margin-top: 10px;
     font-size: 18px;
     font-style: italic;
@@ -1122,8 +1125,9 @@ hr.style13 {
 
 .picturenote {
     font-family: 'lato';
+    font-size: 12px;
     text-align: center;
-    color: #434546
+    color: #6d6f6f
 }
 
 @media (max-width: 768px) {
