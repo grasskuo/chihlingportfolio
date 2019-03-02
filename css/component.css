@@ -709,7 +709,23 @@ header.jumbotron {
     background-color: #063665;
     background-repeat: no-repeat;
     position: relative;
+    
 }
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
 
 header.jumbotron:after {
     content: "";
@@ -1701,7 +1717,7 @@ section#gallerySection.btn {
 
     .popup {
         width: 80%;
-        height: 80%;
+        height: 85%;
     }
 
     .popup h2 {
