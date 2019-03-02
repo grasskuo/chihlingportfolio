@@ -709,6 +709,7 @@ header.jumbotron {
     background-color: #063665;
     background-repeat: no-repeat;
     position: relative;
+overflow: hidden;
 
 }
 
@@ -718,6 +719,7 @@ header video {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
+     overflow: hidden;
     width: auto;
     height: auto;
     z-index: 0;
@@ -804,7 +806,9 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         position: relative;
         background-position: center;
         background-attachment: cover;
-        padding-bottom: 0
+        padding-bottom: 0;
+        overflow: hidden;
+        
     }
 
     header video {
@@ -815,6 +819,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         min-height: 100%;
         width: auto;
         height: auto;
+         overflow: hidden;
         z-index: 0;
         -ms-transform: translateX(-50%) translateY(-50%);
         -moz-transform: translateX(-50%) translateY(-50%);
@@ -872,6 +877,21 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         text-align: center;
     }
 
+     header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+         overflow: hidden;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
 
 /*
@@ -902,6 +922,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         background-size: cover;
         background-attachment: fixed;
         background-position: top;
+        overflow: hidden;
 
     }
 
@@ -928,6 +949,17 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         width: 100%;
         position: relative;
         padding-bottom: 0
+    }
+    
+     header.jumbotron {
+        height: 100vh;
+        position: relative;
+        padding-bottom: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top;
+         overflow: hidden;
+
     }
 
     header.jumbotron .container {
