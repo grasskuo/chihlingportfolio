@@ -1729,14 +1729,51 @@ section#gallerySection.btn {
     height: 85%;
     position: relative;
     transition: all 3s ease-in-out;
-
-
 }
 
 .popup h2 {
     margin-top: 0;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup section#gallerySection h5 {
+        position: relative;
+        font-family:'roboto';
+        font-weight: 800;
+        z-index: 5;
+        padding-bottom: 0px;
+        transform: translateY(0%);
+        top: 5px;
+        margin: 0px auto;
+        text-align: right;
+        text-shadow: 0 0 5px rgba(0,
+            0,
+            0,
+            0);
+        font-size:18px;
+        color: rgb(107, 112, 114,0);
+        text-decoration:none;
+        text-decoration-color: rgba(234, 170, 127, 0.01);
+        line-height: 25px;
+        opacity: 1;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease
+    }
+ .popup section#gallerySection [class^='col-']:hover h5 {
+        opacity: 1;
+        font-size: 18px;
+        text-shadow: 0 0 10px #fdfdfd;
+        color: #EAAA7F;
+        text-decoration-color: #EAAA7F;
+        text-decoration: overline;
+    }
+.popup section#gallerySection{
+    position:relative;
+    z-index: 2;
+    overflow: auto;
 }
 
 .popup .close {
@@ -1777,6 +1814,40 @@ section#gallerySection.btn {
         font-family: Tahoma, Arial, sans-serif;
         font-size: 30px;
     }
+   .popup section#gallerySection h5 {
+        position: relative;
+        font-family:'roboto';
+        font-weight: 800;
+        z-index: 5;
+        padding-bottom: 18px;
+        transform: translateY(0%);
+        top: 0px;
+        margin: 0px auto;
+        text-align: right;
+        text-shadow: 0 0 5px rgba(0,
+            0,
+            0,
+            0);
+        font-size:18px;
+        color: rgb(107, 112, 114);
+        text-decoration:none;
+        text-decoration-color: rgba(234, 170, 127, 0.01);
+        line-height: 25px;
+        opacity: 1;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease
+    }
+     .popup section#gallerySection [class^='col-']:hover h5 {
+        opacity: 1;
+        font-size: 18px;
+        text-shadow: 0 0 10px #fdfdfd;
+        color: #EAAA7F;
+        text-decoration-color: #EAAA7F;
+        text-decoration: overline;
+    }
+
 }
 
 /*-------------------------*/
