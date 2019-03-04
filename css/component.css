@@ -1506,21 +1506,22 @@ section#experience h2 {
 /* $Work
 ---------------------------*/
 .workscontainer {
+    /*
     position: relative;
     padding-top: 0px;
     padding-bottom: 0px
+*/
 }
 
 section#gallerySection .row {
     position: relative;
     padding: top;
     margin-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     z-index: 2;
     overflow: auto;
-
-
 }
+
 
 @media (min-width: 767px) {
     .col-md-4 {
@@ -1530,15 +1531,17 @@ section#gallerySection .row {
 }
 
 section#gallerySection [class^='col-'] {
-    padding: 10;
+    padding: 10px;
     position: relative;
-    margin-bottom: 30px;
-
+    margin-bottom: 0px;
 }
 
 section#gallerySection [class^='col-']:hover h5 {
-    opacity: 1;
-    font-size: 26px
+    font-size: 20px;
+    text-shadow: 0 0 10px #fdfdfd;
+    text-align:right;
+    color: #EAAA7F;
+    text-decoration-color: #EAAA7F;
 }
 
 section#gallerySection [class^='col-']:hover img {
@@ -1547,21 +1550,28 @@ section#gallerySection [class^='col-']:hover img {
 }
 
 section#gallerySection h5 {
-    position: absolute;
+    position: relative;
+     font-family:'roboto';
     z-index: 5;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 6px;
-    color: white;
+    top: 10px;
+    /*    transform: translateY(-50%);*/
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin: 0px auto;
+    text-align:right;
+    line-height: 30px;
+    text-decoration: overline;
+    text-decoration-color: rgba(66, 71, 74, 0);
+    font-size: 20px;
+    color:rgb(107, 112, 114,0);
+
+    /*
     text-shadow: 0 0 5px rgba(0,
         0,
         0,
         0.5);
-    opacity: 0;
+*/
+    opacity: 1;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -1613,29 +1623,90 @@ section#gallerySection.btn {
         -webkit-transition: all .5s ease;
         transition: all .5s ease
     }
+
+    section#gallerySection h5 {
+        position: absolute;
+         font-family:'roboto';
+        z-index: 5;
+        top: 0%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: right;
+        line-height: 25px;
+        font-size: 20px;
+        color: rgb(66, 71, 74);
+        text-decoration color: rgba(66, 71, 74, 0);
+        opacity: 1;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease
+    }
+
 }
 
 @media screen and (max-width: 767px) {
     section#gallerySection .row {
         position: relative;
         padding: top;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
 
     section#gallerySection img {
         position: relative;
         right: 10px;
         margin: 10px;
+        padding-bottom: 0px;
         z-index: 1;
         width: 100%;
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
+        -moz-transition: all .1s ease;
+        -o-transition: all .1s ease;
+        -webkit-transition: all .1s ease;
+        transition: all .1s ease;
+
+    }
+
+    section#gallerySection h5 {
+        position: relative;
+        font-family:'roboto';
+        font-weight: 800;
+        z-index: 5;
+        padding-bottom: 18px;
+        transform: translateY(0%);
+        top: 0px;
+        margin: 0px auto;
+        text-align: right;
+        text-shadow: 0 0 5px rgba(0,
+            0,
+            0,
+            0);
+        font-size:18px;
+        color: rgb(107, 112, 114);
+        text-decoration:none;
+        text-decoration-color: rgba(234, 170, 127, 0.01);
+        line-height: 25px;
+        opacity: 1;
         -moz-transition: all .5s ease;
         -o-transition: all .5s ease;
         -webkit-transition: all .5s ease;
         transition: all .5s ease
     }
+
+    section#gallerySection [class^='col-']:hover h5 {
+        opacity: 1;
+        font-size: 18px;
+        text-shadow: 0 0 10px #fdfdfd;
+        color: #EAAA7F;
+        text-decoration-color: #EAAA7F;
+        text-decoration: overline;
+    }
+
 }
+
 
 /*-------------------------*/
 
@@ -1689,14 +1760,14 @@ section#gallerySection.btn {
 }
 
 .popup {
-    margin: 70px auto;
+    margin: 90px auto;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
     width: 70%;
-    height: 85%;
+    height:70%;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 3s ease-in-out;
 
 }
 
@@ -1704,7 +1775,29 @@ section#gallerySection.btn {
     margin-top: 0;
     color: #333;
     font-family: 'roboto', sans-serif;
+    font-size: 45px;
 }
+
+.popup #gallerySection h5{
+    margin-top: 0;
+    color: rgba(107, 112, 114, 0);
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    text-align: right;
+    
+}
+
+.popup section#gallerySection .row {
+    position: relative;
+    padding:0px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    z-index: 2;
+    overflow: auto;
+
+
+}
+
 
 .popup .close {
     position: absolute;
@@ -1735,7 +1828,7 @@ section#gallerySection.btn {
 
     .popup {
         width: 80%;
-        height: 85%;
+        height: 75%;
     }
 
     .popup h2 {
@@ -1744,6 +1837,14 @@ section#gallerySection.btn {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 30px;
     }
+    .popup section#gallerySection h5{
+    margin-top: 0;
+    color: rgb(107, 112, 114);
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    text-align: right;
+    
+}
 }
 
 
