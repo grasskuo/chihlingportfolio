@@ -536,7 +536,8 @@ nav {
 
 nav .brand {
     font-size: 20px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: #eaaa7f;
 }
 
 nav ul.nav-list {
@@ -616,7 +617,9 @@ nav ul.nav-list li {
         float: left;
         padding-left: 30px;
         top: 10;
-        transform: translateY(50%)
+        transform: translateY(50%);
+        font-weight: 500;
+
     }
 
     nav ul.nav-list {
@@ -654,7 +657,7 @@ nav ul.nav-list li {
 
     nav .brand {
         padding-left: 35px;
-        color: white
+        color: #fefefe;
     }
 
     nav .show-menu-btn {
@@ -738,7 +741,7 @@ header.jumbotron:after {
     height: 100%;
     background: #070707;
     
-    background: linear-gradient(60deg, #4e4f95, #c87db4);
+    background: linear-gradient(180deg, rgba(78, 79, 149, 0.5), rgba(200, 125, 180, 0.0));
     linear-gradient背景線性漸層
 
     opacity: 0.3;
@@ -779,7 +782,7 @@ header.jumbotron h1 {
 header.jumbotron h3 {
     position: relative;
     top: -120px;
-    font-size: 60px;
+    font-size: 35px;
     color: #fff;
     font-family: , 'roboto', 'Source Sans Pro', sans-serif;
     font-weight: 900;
@@ -791,7 +794,8 @@ header.jumbotron .header-scroll-down-btn {
     text-align: center;
     width: 50px;
     height: 50px;
-    margin: 0 auto
+    margin: 0 auto;
+    
 }
 
 header.jumbotron .header-scroll-down-btn i.fa {
@@ -799,7 +803,7 @@ header.jumbotron .header-scroll-down-btn i.fa {
 }
 
 header.jumbotron .header-scroll-down-btn:hover i.fa {
-    color: #eee
+    color: #eaaa7f
 }
 
 
@@ -833,14 +837,14 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     }
 
     header.jumbotron .header-content h3 {
-        font-size: 50px;
+        font-size: 35px;
         position: absolute;
         top: 100px
     }
 
     header.jumbotron .header-scroll-down-btn {
         position: relative;
-        bottom: 0
+        top: 10px;
     }
 }
 
@@ -867,7 +871,10 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         text-align: center;
         font-family: , 'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 900;
+        text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
     }
+    }
+
 
 
 }
@@ -888,11 +895,12 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     header.jumbotron h3 {
         position: relative;
         top: 0px;
-        font-size: 30px;
+        font-size:35px;
         color: #fff;
         text-align: center;
         font-family: , 'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 900;
+        text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
     }
 
     header.jumbotron {
@@ -949,13 +957,19 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
 
     header.jumbotron .header-content h3 {
         font-size: 30px;
-
+        text-shadow: 1px 1px 5px rgba(5, 5, 5, 0.12);
         position: relative;
     }
 
     header.jumbotron .header-scroll-down-btn {
         position: relative;
-        bottom: 0
+        top: -10px;
+        display: block;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+       left:1px;
     }
 }
 
@@ -1095,6 +1109,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     margin-top: -10px;
     z-index: 1;
     align-self: center;
+    box-shadow: 1px 3px 6px rgb(1,1,1,.1)
 }
 
 /*#e881a7*/
@@ -1519,7 +1534,7 @@ section#gallerySection .row {
     margin-top: 0;
     padding-bottom: 50px;
     z-index: 2;
-    overflow: auto;
+/*    overflow: auto;*/
 }
 
 
@@ -1539,7 +1554,7 @@ section#gallerySection [class^='col-'] {
 section#gallerySection [class^='col-']:hover h5 {
     font-size: 20px;
     text-shadow: 0 0 10px #fdfdfd;
-    text-align:right;
+    text-align: right;
     color: #EAAA7F;
     text-decoration-color: #EAAA7F;
 }
@@ -1551,19 +1566,19 @@ section#gallerySection [class^='col-']:hover img {
 
 section#gallerySection h5 {
     position: relative;
-     font-family:'roboto';
+    font-family: 'roboto';
     z-index: 5;
     top: 10px;
     /*    transform: translateY(-50%);*/
     padding-bottom: 20px;
     margin-right: 10px;
     margin: 0px auto;
-    text-align:right;
+    text-align: right;
     line-height: 30px;
     text-decoration: overline;
     text-decoration-color: rgba(66, 71, 74, 0);
     font-size: 20px;
-    color:rgb(107, 112, 114,0);
+    color: rgb(107, 112, 114, 0);
 
     /*
     text-shadow: 0 0 5px rgba(0,
@@ -1626,7 +1641,7 @@ section#gallerySection.btn {
 
     section#gallerySection h5 {
         position: absolute;
-         font-family:'roboto';
+        font-family: 'roboto';
         z-index: 5;
         top: 0%;
         transform: translateY(-50%);
@@ -1672,7 +1687,7 @@ section#gallerySection.btn {
 
     section#gallerySection h5 {
         position: relative;
-        font-family:'roboto';
+        font-family: 'roboto';
         font-weight: 800;
         z-index: 5;
         padding-bottom: 18px;
@@ -1684,9 +1699,9 @@ section#gallerySection.btn {
             0,
             0,
             0);
-        font-size:18px;
+        font-size: 18px;
         color: rgb(107, 112, 114);
-        text-decoration:none;
+        text-decoration: none;
         text-decoration-color: rgba(234, 170, 127, 0.01);
         line-height: 25px;
         opacity: 1;
@@ -1765,7 +1780,7 @@ section#gallerySection.btn {
     background: #fff;
     border-radius: 5px;
     width: 70%;
-    height:70%;
+    height: 70%;
     position: relative;
     transition: all 3s ease-in-out;
 
@@ -1778,18 +1793,18 @@ section#gallerySection.btn {
     font-size: 45px;
 }
 
-.popup #gallerySection h5{
+.popup #gallerySection h5 {
     margin-top: 0;
     color: rgba(107, 112, 114, 0);
     font-family: 'roboto', sans-serif;
     font-size: 18px;
     text-align: right;
-    
+
 }
 
 .popup section#gallerySection .row {
     position: relative;
-    padding:0px;
+    padding: 0px;
     margin-top: 0;
     padding-bottom: 0px;
     z-index: 2;
@@ -1837,14 +1852,15 @@ section#gallerySection.btn {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 30px;
     }
-    .popup section#gallerySection h5{
-    margin-top: 0;
-    color: rgb(107, 112, 114);
-    font-family: 'roboto', sans-serif;
-    font-size: 18px;
-    text-align: right;
-    
-}
+
+    .popup section#gallerySection h5 {
+        margin-top: 0;
+        color: rgb(107, 112, 114);
+        font-family: 'roboto', sans-serif;
+        font-size: 18px;
+        text-align: right;
+
+    }
 }
 
 
@@ -1855,7 +1871,7 @@ section#gallerySection.btn {
 ---------------------------*/
 section#contactSection {
     /*    background-image:;*/
-    background-color: #063665;
+    background-color:  #063665;
     background-position: bottom(100px);
     background-attachment: fixed;
     background-size: cover;
@@ -1865,7 +1881,6 @@ section#contactSection {
     padding-bottom: 30px
 }
 
-/*
 section#contactSection:after {
     content: "";
     position: absolute;
@@ -1873,12 +1888,10 @@ section#contactSection:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #242424;
-    linear-gradient背景線性漸層
-    opacity: 0.3;
+    background:   linear-gradient(0deg, #063665, #036498);
+    opacity:1;
     z-index: 0;
 }
-*/
 
 section#contactSectionAbout {
     background-color: rgba(255,
@@ -1900,6 +1913,7 @@ section#contactSection h5 {
     font-weight: bolder;
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
+     z-index:1;
 }
 
 section#contactSectionAbout h5 {
@@ -1908,7 +1922,8 @@ section#contactSectionAbout h5 {
     color: rgba(8,
         34,
         105,
-        0.97)
+        1);
+   
 }
 
 section#contactSection .icon {
