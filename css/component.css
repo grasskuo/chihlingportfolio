@@ -1149,7 +1149,9 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     text-align: center;
     text-emphasis-position: above;
     line-height: 90px;
-    font-size: 32px;
+     font-size:30px;
+    font-weight: 600;
+    font-family:'Source Sans Pro', sans-serif;
     color: #fefefe;
     margin-right: auto;
     margin-left: auto;
@@ -1167,6 +1169,26 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         margin-right: auto;
         margin-left: auto;
     }
+    .quote__icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #eaaa7f;
+    text-align: center;
+    text-emphasis-position: above;
+    line-height: 90px;
+    font-size:30px;
+    font-weight: 600;
+    font-family:'Source Sans Pro', sans-serif;
+    color: #fefefe;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -10px;
+    z-index: 1;
+    align-self: center;
+    box-shadow: 1px 3px 6px rgb(1,1,1,.1)
+}
+
 }
 
 .quote__content {
