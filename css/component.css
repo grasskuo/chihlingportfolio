@@ -748,7 +748,7 @@ header.jumbotron {
     background-size: cover;
     background-attachment: fixed;
     background-position: center (100);
-    background-color: #000;
+    background-color: #fff;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
@@ -1989,8 +1989,8 @@ section#gallerySection.btn {
 ---------------------------*/
 section#contactSection {
     height: 400px;
-    margin-top: 50px;
-    padding-top: 60px;
+    margin-top: 100px;
+    padding-top: 70px;
     padding-bottom: 30px;
     background:linear-gradient(0deg, #063665, #036498);
 }
