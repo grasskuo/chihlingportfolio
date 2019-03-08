@@ -1741,7 +1741,7 @@ section#gallerySection.btn {
         position: relative;
         font-family:'roboto';
         font-weight: 800;
-        z-index: 5;
+        z-index: 1;
         padding-bottom: 0px;
         transform: translateY(0%);
         top: 5px;
@@ -1818,7 +1818,7 @@ section#gallerySection.btn {
         position: relative;
         font-family:'roboto';
         font-weight: 800;
-        z-index: 5;
+        z-index: 1;
         padding-bottom: 18px;
         transform: translateY(0%);
         top: 0px;
@@ -1938,7 +1938,7 @@ section#contactSectionAbout .icon {
     }
 
     section#contactSection {
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 30px;
     }
 
