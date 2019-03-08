@@ -1990,7 +1990,7 @@ section#gallerySection.btn {
 section#contactSection {
     height: 400px;
     margin-top: 100px;
-    padding-top: 70px;
+    padding-top: 60px;
     padding-bottom: 30px;
     background:linear-gradient(0deg, #063665, #036498);
 }
@@ -2053,8 +2053,8 @@ section#contactSectionAbout .icon {
 
 @media (max-width: 768px) {
     section#contactSection {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     section#contactSection .icon {
