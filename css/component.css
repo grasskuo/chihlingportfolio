@@ -798,7 +798,7 @@ header.jumbotron .container {
 }
 
 header.jumbotron * {
-    color: none
+    color: none;
 }
 
 header.jumbotron img {
@@ -821,7 +821,7 @@ header.jumbotron h1 {
 }
 
 header.jumbotron h3 {
-    position: relative;
+    position: fixed;
     top: -120px;
     font-size: 35px;
     color: #fff;
@@ -831,7 +831,7 @@ header.jumbotron h3 {
 }
 
 header.jumbotron h4 {
-    position: relative;
+    position:fixed;
     top: -120px;
     color: #fff;
     text-align: center;
@@ -931,7 +931,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         top: -120px;
         font-size: 35px;
         color: #fff;
-        text-align: center;
+        text-align: left;
         font-family: 'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 900;
         text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
@@ -941,7 +941,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         position: relative;
         top: -120px;
         color: #fff;
-        text-align: center;
+        text-align: left;
         font-family: 'Montserrat', 'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 100;
         text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
