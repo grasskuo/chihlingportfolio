@@ -499,6 +499,15 @@ p,
     color: #0b1a29
 }
 
+.articleS {
+    font-family: 'roboto';
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #454748;
+}
+
 .section-title {
     text-align: center;
     margin-top: 10px;
@@ -831,7 +840,7 @@ header.jumbotron h3 {
 }
 
 header.jumbotron h4 {
-    position:fixed;
+    position: fixed;
     top: -120px;
     color: #fff;
     text-align: center;
@@ -1640,7 +1649,7 @@ section#experience h2 {
     display: flex;
     padding: 4% 2%;
     box-sizing: border-box;
-    height: 80vh;
+    height: 90vh;
     width: 75%;
     margin-left: 12.5555%;
 }
@@ -1741,6 +1750,13 @@ section#gallerySection .row {
     /*    overflow: auto;*/
 }
 
+section#gallerySection .col-md-4 {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 80hv;
+    width: 33.33333%;
+}
 
 @media (min-width: 767px) {
     .col-md-4 {
@@ -1796,12 +1812,13 @@ section#gallerySection [class^='col-'] {
     margin-bottom: 0px;
 }
 
-section#gallerySection [class^='col-']:hover h5 {
-    font-size: 20px;
+section#gallerySection [class^='col-'] h5 {
+    font-size: 16px;
+     line-height: 30px;
     text-shadow: 0 0 10px #fdfdfd;
-    text-align: right;
+    text-align: center;
     color: #EAAA7F;
-    text-decoration-color: #EAAA7F;
+    width: auto;
 }
 
 section#gallerySection [class^='col-']:hover img {
@@ -1809,12 +1826,13 @@ section#gallerySection [class^='col-']:hover img {
     filter: grayscale(0%)
 }
 
+/*
 section#gallerySection h5 {
     position: relative;
     font-family: 'roboto';
     z-index: 5;
     top: 10px;
-    /*    transform: translateY(-50%);*/
+        transform: translateY(-50%);
     padding-bottom: 20px;
     margin-right: 10px;
     margin: 0px auto;
@@ -1824,6 +1842,7 @@ section#gallerySection h5 {
     text-decoration-color: rgba(66, 71, 74, 0);
     font-size: 20px;
     color: rgb(107, 112, 114, 0);
+*/
 
     /*
     text-shadow: 0 0 5px rgba(0,
@@ -1831,12 +1850,14 @@ section#gallerySection h5 {
         0,
         0.5);
 */
+/*
     opacity: 1;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -webkit-transition: all .5s ease;
     transition: all .5s ease
 }
+*/
 
 section#gallerySection img {
     position: relative;
@@ -1974,6 +1995,14 @@ section#gallerySection.btn {
         padding: top;
         padding-bottom: 10px;
     }
+    section#gallerySection .col-md-4 {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 80hv;
+    width: auto;
+}
+
 
     section#gallerySection img {
         position: relative;
