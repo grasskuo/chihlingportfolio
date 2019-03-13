@@ -518,8 +518,12 @@ nav {
 
 nav .brand {
     font-size: 20px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: #fff;
 }
+
+
+
 
 nav ul.nav-list {
     list-style: none;
@@ -598,8 +602,12 @@ nav ul.nav-list li {
         float: left;
         padding-left: 30px;
         top: 10;
-        transform: translateY(50%)
+        transform: translateY(50%);
+        font-weight: 500;
+
     }
+
+
 
     nav ul.nav-list {
         height: 100vh;
@@ -623,6 +631,14 @@ nav ul.nav-list li {
         color: #0f476a;
         font-size: 24px
     }
+
+    nav ul.nav-list li:hover a {
+        color: #eaaa7f;
+        font-size: 26px;
+        text-transform: uppercase
+    }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -636,8 +652,16 @@ nav ul.nav-list li {
 
     nav .brand {
         padding-left: 35px;
-        color: white
+        color: #fefefe;
     }
+
+    nav :hover.brand {
+        padding-left: 35px;
+        font-size: 22px;
+        color: #fefefe;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
 
     nav .show-menu-btn {
         display: none
@@ -660,6 +684,13 @@ nav ul.nav-list li {
         text-transform: uppercase
     }
 
+    nav ul.nav-list li:hover a {
+        color: #fff;
+        font-size: 20px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase
+    }
+
     nav.scroll {
         background-color: white;
         -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -671,10 +702,23 @@ nav ul.nav-list li {
         color: #0f476a
     }
 
+    nav.scroll :hover.brand {
+        color: #68cbef;
+        text-shadow: 0 0 0;
+    }
+
     nav.scroll .nav-list li a {
         color: #0f476a
     }
+
+    nav.scroll .nav-list li:hover a {
+        color: #eaaa7f;
+        text-shadow: 0 0 0;
+    }
+
+
 }
+
 
 header.jumbotron {
     position: fixed;
@@ -1556,7 +1600,13 @@ section#gallerySection .row {
     background-size: cover;
 
 }
-
+section#gallerySection .col-md-4  {
+background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height:235px;
+    
+}
 @media (min-width: 767px) {
     .col-md-4 {
         padding-left: 8px;
