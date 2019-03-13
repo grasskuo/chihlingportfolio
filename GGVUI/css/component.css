@@ -1604,9 +1604,18 @@ section#gallerySection .row {
     z-index: 2;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 
 }
 
+section#gallerySection .col-md-4  {
+background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    width: 280px;
+    height:200px;
+    
+}
 @media (min-width: 767px) {
     .col-md-4 {
         padding-left: 8px;
@@ -1615,9 +1624,9 @@ section#gallerySection .row {
 }
 
 section#gallerySection [class^='col-'] {
-    padding: 10;
+    padding-top: 20px;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 section#gallerySection [class^='col-']:hover h5 {
