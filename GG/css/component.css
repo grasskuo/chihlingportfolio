@@ -150,7 +150,7 @@
     font-size: 14px;
     text-align: center;
     font-weight: 500;
-    font-family: 'Source Sans Pro', sans-serif,'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif, 'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
     letter-spacing: 0;
     text-decoration: none;
     background-color: #d1d2d3;
@@ -368,7 +368,7 @@ basicIntronSection.btn--secondary:hover,
     box-sizing: border-box;
     font-size: 14px;
     font-weight: 400;
-    font-family:'Source Sans Pro', sans-serif,'Raleway', 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family: 'Source Sans Pro', sans-serif, 'Raleway', 'Helvetica', 'roboto', arial, 'sans-serif';
     letter-spacing: 0;
     text-decoration: none;
     color: #484848;
@@ -457,7 +457,7 @@ h4,
 h5,
 h6,
 nav a {
-    font-family: 'Source Sans Pro', sans-serif,'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family: 'Source Sans Pro', sans-serif, 'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
     font-weight: 400
 }
 
@@ -517,8 +517,12 @@ nav {
 
 nav .brand {
     font-size: 20px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: #fff;
 }
+
+
+
 
 nav ul.nav-list {
     list-style: none;
@@ -532,7 +536,7 @@ nav ul.nav-list li {
 @media screen and (max-width: 767px) {
     nav {
         background-color: white;
-/*        border-bottom: 1px solid #0f476a;*/
+        /*        border-bottom: 1px solid #0f476a;*/
         z-index: 1000;
         -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -597,8 +601,12 @@ nav ul.nav-list li {
         float: left;
         padding-left: 30px;
         top: 10;
-        transform: translateY(50%)
+        transform: translateY(50%);
+        font-weight: 500;
+
     }
+
+
 
     nav ul.nav-list {
         height: 100vh;
@@ -622,12 +630,20 @@ nav ul.nav-list li {
         color: #0f476a;
         font-size: 24px
     }
+
+    nav ul.nav-list li:hover a {
+        color: #eaaa7f;
+        font-size: 26px;
+        text-transform: uppercase
+    }
+
+
 }
 
 @media screen and (min-width: 768px) {
     nav {
         background-color: rgba(15, 47, 75, 0.45);
-/*        border-bottom: 1px solid #0f476a;*/
+        /*        border-bottom: 1px solid #0f476a;*/
         padding-top: 12px;
         padding-left: 20px;
         padding-right: 20px
@@ -635,8 +651,16 @@ nav ul.nav-list li {
 
     nav .brand {
         padding-left: 35px;
-        color: white
+        color: #fefefe;
     }
+
+    nav :hover.brand {
+        padding-left: 35px;
+        font-size: 22px;
+        color: #fefefe;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
 
     nav .show-menu-btn {
         display: none
@@ -659,6 +683,13 @@ nav ul.nav-list li {
         text-transform: uppercase
     }
 
+    nav ul.nav-list li:hover a {
+        color: #fff;
+        font-size: 20px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase
+    }
+
     nav.scroll {
         background-color: white;
         -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -670,9 +701,21 @@ nav ul.nav-list li {
         color: #0f476a
     }
 
+    nav.scroll :hover.brand {
+        color: #68cbef;
+        text-shadow: 0 0 0;
+    }
+
     nav.scroll .nav-list li a {
         color: #0f476a
     }
+
+    nav.scroll .nav-list li:hover a {
+        color: #eaaa7f;
+        text-shadow: 0 0 0;
+    }
+
+
 }
 
 header.jumbotron {
@@ -738,7 +781,7 @@ header.jumbotron h1 {
     top: -120px;
     font-size: 70px;
     color: #fff;
-    font-family:'lato';
+    font-family: 'lato';
 }
 
 header.jumbotron h3 {
@@ -1074,8 +1117,8 @@ hr.style13 {
 .article {
     font-family: 'roboto';
     line-height: 30px;
-font-weight: 550;
-    color:#454748;
+    font-weight: 550;
+    color: #454748;
 }
 
 
@@ -1083,13 +1126,13 @@ font-weight: 550;
     font-family: 'roboto';
     text-align: left;
     line-height: 30px;
-    font-weight:300;
+    font-weight: 300;
     font-size: 18px;
     color: #454748;
 }
 
 .articleSS {
-    font-family:  'roboto';
+    font-family: 'roboto';
     text-align: left;
     line-height: 20px;
     color: #2967ad;
@@ -1584,7 +1627,7 @@ section#gallerySection [class^='col-']:hover img {
     filter: grayscale(0%)
 }
 
-section#gallerySection h5{
+section#gallerySection h5 {
     position: absolute;
     z-index: 5;
     top: 50%;
@@ -1816,7 +1859,7 @@ section#contactSection h5 {
     text-align: center;
     top: 50px;
     font-weight: 600;
-    font-family:'lato';
+    font-family: 'lato';
     color: #ffffff;
     text-shadow: (0.5, 1, 1)
 }
@@ -1938,6 +1981,7 @@ section#contactSectionAbout .icon {
     color: #e881a7;
     bottom: 10px;
     top: 5px
+    
 }
 }
 
