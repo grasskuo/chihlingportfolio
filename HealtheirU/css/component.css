@@ -1603,6 +1603,14 @@ section#gallerySection .row {
     background-size: cover;
 
 }
+section#gallerySection .col-md-4  {
+background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    width: 280px;
+    height:200px;
+    
+}
 
 @media (min-width: 767px) {
     .col-md-4 {
