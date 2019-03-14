@@ -1260,7 +1260,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
 
 .row {
     background-color: none;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 0px;
 }
 
@@ -1744,7 +1744,7 @@ section#gallerySection .row {
     position: relative;
     padding: top;
     margin-top: 0;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     z-index: 2;
 
     /*    overflow: auto;*/
@@ -1813,11 +1813,19 @@ section#gallerySection [class^='col-'] {
 }
 
 section#gallerySection [class^='col-'] h5 {
-    font-size: 16px;
-     line-height: 30px;
+    font-size: 20px;
+     line-height: 20px;
     text-shadow: 0 0 10px #fdfdfd;
     text-align: center;
-    color: #EAAA7F;
+    color: #0f476a;
+    width: auto;
+}
+section#gallerySection [class^='col-']:hover h5 {
+    font-size: 20px;
+     line-height: 20px;
+    text-shadow: 0 0 10px #fdfdfd;
+    text-align: center;
+    color: #eaaa7f;
     width: auto;
 }
 
@@ -1883,7 +1891,7 @@ section#gallerySection.btn {
     section#gallerySection .row {
         position: relative;
         padding: top;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
 
     section#gallerySection [class^='col-'] {
@@ -1894,7 +1902,7 @@ section#gallerySection.btn {
     section#gallerySection img {
         position: relative;
         right: 0px;
-        margin: 30px;
+        margin: 0px;
         z-index: 1;
         width: 100%;
         -webkit-filter: grayscale(100%);
@@ -2130,12 +2138,12 @@ section#gallerySection.btn {
 }
 
 .popup {
-    margin: 90px auto;
+    margin: 70px auto;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
     width: 70%;
-    height: 70%;
+    height: 85%;
     position: relative;
     transition: all 3s ease-in-out;
 
@@ -2144,30 +2152,8 @@ section#gallerySection.btn {
 .popup h2 {
     margin-top: 0;
     color: #333;
-    font-family: 'roboto', sans-serif;
-    font-size: 45px;
+    font-family:'Source Sans Pro', sans-serif;
 }
-
-.popup #gallerySection h5 {
-    margin-top: 0;
-    color: rgba(107, 112, 114, 0);
-    font-family: 'roboto', sans-serif;
-    font-size: 18px;
-    text-align: right;
-
-}
-
-.popup section#gallerySection .row {
-    position: relative;
-    padding: 0px;
-    margin-top: 0;
-    padding-bottom: 0px;
-    z-index: 2;
-    overflow: auto;
-
-
-}
-
 
 .popup .close {
     position: absolute;
@@ -2189,6 +2175,22 @@ section#gallerySection.btn {
     overflow: auto;
 
 }
+.popup img{
+   
+    position: relative;
+    z-index: 1;
+    height:250px;
+    width: auto;
+    background-size: cover;
+
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+
+}
 
 
 @media screen and (max-width: 700px) {
@@ -2198,7 +2200,7 @@ section#gallerySection.btn {
 
     .popup {
         width: 80%;
-        height: 75%;
+        height: 80%;
     }
 
     .popup h2 {
@@ -2207,18 +2209,7 @@ section#gallerySection.btn {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 30px;
     }
-
-    .popup section#gallerySection h5 {
-        margin-top: 0;
-        color: rgb(107, 112, 114);
-        font-family: 'roboto', sans-serif;
-        font-size: 18px;
-        text-align: right;
-
-    }
 }
-
-
 
 /*-------------------------*/
 
