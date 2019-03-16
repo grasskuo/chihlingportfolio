@@ -517,9 +517,11 @@ nav {
 }
 
 nav .brand {
-    font-size: 20px;
+    font-size: 23px;
+    line-height: 25px;
     text-transform: uppercase;
     color: #fff;
+    font-family: 'Baloo Bhaijaan', cursive;
 }
 
 
@@ -643,7 +645,7 @@ nav ul.nav-list li {
 
 @media screen and (min-width: 768px) {
     nav {
-        background-color: rgba(15, 47, 75, 0.45);
+        background-color: rgba(15, 47, 75, 0);
         /*        border-bottom: 1px solid #0f476a;*/
         padding-top: 12px;
         padding-left: 20px;
@@ -657,7 +659,7 @@ nav ul.nav-list li {
 
     nav :hover.brand {
         padding-left: 35px;
-        font-size: 22px;
+        font-size: 24px;
         color: #fefefe;
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
