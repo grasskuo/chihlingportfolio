@@ -150,7 +150,7 @@
     font-size: 14px;
     text-align: center;
     font-weight: 500;
-    font-family:'Source Sans Pro', sans-serif, 'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif, 'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
     letter-spacing: 0;
     text-decoration: none;
     background-color: #d1d2d3;
@@ -368,7 +368,7 @@ basicIntronSection.btn--secondary:hover,
     box-sizing: border-box;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Source Sans Pro', sans-serif,'Raleway', 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family: 'Source Sans Pro', sans-serif, 'Raleway', 'Helvetica', 'roboto', arial, 'sans-serif';
     letter-spacing: 0;
     text-decoration: none;
     color: #484848;
@@ -457,7 +457,7 @@ h4,
 h5,
 h6,
 nav a {
-    font-family: 'Source Sans Pro', sans-serif,'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
+    font-family: 'Source Sans Pro', sans-serif, 'Merriweather', serif, 'Helvetica', 'roboto', arial, 'sans-serif';
     font-weight: 400
 }
 
@@ -516,9 +516,11 @@ nav {
 }
 
 nav .brand {
-    font-size: 20px;
+    font-size: 23px;
+    line-height: 25px;
     text-transform: uppercase;
     color: #fff;
+    font-family: 'Baloo Bhaijaan', cursive;
 }
 
 
@@ -642,7 +644,7 @@ nav ul.nav-list li {
 
 @media screen and (min-width: 768px) {
     nav {
-        background-color: rgba(15, 47, 75, 0.45);
+        background-color: rgba(15, 47, 75, 0);
         /*        border-bottom: 1px solid #0f476a;*/
         padding-top: 12px;
         padding-left: 20px;
@@ -656,7 +658,7 @@ nav ul.nav-list li {
 
     nav :hover.brand {
         padding-left: 35px;
-        font-size: 22px;
+        font-size: 24px;
         color: #fefefe;
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
@@ -1119,8 +1121,8 @@ hr.style13 {
 .article {
     font-family: 'roboto';
     line-height: 30px;
-font-weight: 550;
-    color:#454748;
+    font-weight: 550;
+    color: #454748;
 }
 
 
@@ -1128,7 +1130,7 @@ font-weight: 550;
     font-family: 'roboto';
     text-align: left;
     line-height: 30px;
-    font-weight:300;
+    font-weight: 300;
     font-size: 18px;
     color: #454748;
 }
@@ -1141,7 +1143,7 @@ font-weight: 550;
 }
 
 .articleS h4 {
-    font-family:'roboto';
+    font-family: 'roboto';
     text-align: left;
     line-height: 10px;
     color: #20272f;
@@ -1162,6 +1164,7 @@ font-weight: 550;
     font-size: 18px;
     font-style: italic;
 }
+
 .picturenote {
     font-family: 'lato';
     font-size: 12px;
@@ -1603,13 +1606,14 @@ section#gallerySection .row {
     background-size: cover;
 
 }
-section#gallerySection .col-md-4  {
-background-size: cover;
-    background-position:center;
+
+section#gallerySection .col-md-4 {
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
     width: 280px;
-    height:200px;
-    
+    height: 200px;
+
 }
 
 @media (min-width: 767px) {
@@ -1790,7 +1794,7 @@ section#gallerySection.btn {
 .popup h2 {
     margin-top: 0;
     color: #333;
-    font-family:'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .popup .close {
@@ -1967,7 +1971,7 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .info__email {
