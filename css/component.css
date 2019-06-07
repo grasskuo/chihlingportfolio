@@ -1699,7 +1699,7 @@ section#experience h2 {
     top: 0px;
     margin: 0px auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: #EAAA7F;
     line-height: 25px;
     opacity: 1;
@@ -1730,7 +1730,7 @@ section#experience h2 {
 }
 
 .box1:hover {
-    flex: 1 5 50%;
+    flex: 1 5 30%;
 }
 
 .box1:hover > img {
