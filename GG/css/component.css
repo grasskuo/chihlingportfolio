@@ -163,6 +163,32 @@
     user-drag: none;
     transition: all 0.3s;
 }
+.btn1{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 5px;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif, 'Raleway', 'Helvetica', 'roboto', arial, sans-serif;
+    letter-spacing: 0;
+    text-decoration: none;
+    background-color: #d1d2d3;
+    border: 0;
+    border-radius: 18px;
+    outline: 0;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    user-drag: none;
+    transition: all 0.3s;
+}
 
 .btn--primary,
 .btn--secondary {
@@ -184,9 +210,25 @@
     color: #eaaa7f;
 }
 
+.btn1.btn--thirdly {
+    background-color: inherit;
+    border: 1px solid #e881a7;
+    color: #e881a7;
+    z-index: 10;
+    object-position:left;
+    position:relative;
+    top:-100px;
+}
+
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
     background-color: #eaaa7f;
+    color: #fefefe;
+}
+
+.btn1.btn--thirdly:hover,
+.btn1.btn--thirdly:active {
+    background-color: #fd94bb;
     color: #fefefe;
 }
 
@@ -1346,9 +1388,9 @@ section#skillSection h5 {
 .skill-progress-bar .progress-percentage {
     height: 100%;
     background-color: rgba(13,
-        69,
-        98,
-        0.66);
+            69,
+            98,
+            0.66);
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px
@@ -1380,9 +1422,9 @@ section#skillSection h5 {
     background-color: #fefefe;
     border-radius: 4px;
     box-shadow: 0 3px 10px rgba(0,
-        0,
-        0,
-        0.5);
+            0,
+            0,
+            0.5);
     padding: 24px;
     padding-left: 48px;
 }
@@ -1407,9 +1449,9 @@ section#skillSection h5 {
     height: 64px;
     border-radius: 50%;
     box-shadow: 0 3px 10px rgba(0,
-        0,
-        0,
-        0.5);
+            0,
+            0,
+            0.5);
     position: absolute;
     left: 0;
     top: 50%;
@@ -1422,7 +1464,7 @@ section#skillSection h5 {
     top: 50%;
     left: 50%;
     transform: translate(-50%,
-        -50%);
+            -50%);
     max-width: 60%;
     max-height: 60%;
 }
@@ -1432,7 +1474,7 @@ section#skillSection h5 {
         top: 0;
         left: 50%;
         transform: translate(-50%,
-            -50%);
+                -50%);
     }
 
     .skill-card {
@@ -1459,9 +1501,9 @@ section#skillSection h5 {
     padding-bottom: 160px;
     ;
     background-color: rgba(2,
-        53,
-        98,
-        0.89);
+            53,
+            98,
+            0.89);
     background-image: url(../banglu-cheng-713523-unsplash.jpg);
     background-size: cover;
 }
@@ -1504,9 +1546,9 @@ section#experience h2 {
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 0 3px 10px rgba(0,
-        0,
-        0,
-        0.5);
+            0,
+            0,
+            0.5);
 }
 
 .timeline-cards__row:nth-child(odd) {
@@ -1525,9 +1567,9 @@ section#experience h2 {
     border-radius: 4px;
     width: calc(50% - 24px);
     box-shadow: 0 3px 10px rgba(0,
-        0,
-        0,
-        0.5);
+            0,
+            0,
+            0.5);
 }
 
 .timeline-card:before {
@@ -1536,9 +1578,9 @@ section#experience h2 {
     height: 16px;
     border-radius: 50%;
     box-shadow: 0 3px 10px rgba(0,
-        0,
-        0,
-        0.5);
+            0,
+            0,
+            0.5);
     background-color: #e881a7;
     position: absolute;
     top: 50%;
@@ -1546,13 +1588,13 @@ section#experience h2 {
 
 .timeline-cards__row:nth-child(odd) > :before {
     transform: translate(50%,
-        -50%);
+            -50%);
     right: -24px;
 }
 
 .timeline-cards__row:nth-child(even) > :before {
     transform: translate(-50%,
-        -50%);
+            -50%);
     left: -24px;
 }
 
@@ -1580,7 +1622,7 @@ section#experience h2 {
 
     .timeline-cards__row:nth-child(odd) > :before {
         transform: translate(-50%,
-            -50%);
+                -50%);
         left: -24px;
     }
 }
@@ -1641,9 +1683,9 @@ section#gallerySection h5 {
     font-size: 5px;
     color: white;
     text-shadow: 0 0 3px rgba(0,
-        0,
-        0,
-        0.7);
+            0,
+            0,
+            0.7);
     opacity: 0;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -1845,9 +1887,9 @@ section#contactSection {
 
 section#contactSectionAbout {
     background-color: rgba(255,
-        255,
-        255,
-        0.81);
+            255,
+            255,
+            0.81);
     margin-top: 0px;
     padding-top: 30px;
     padding-bottom: 30px
@@ -1879,26 +1921,26 @@ section#contactSectionAbout h5 {
     text-align: center;
     font-family: 'lato';
     color: rgba(8,
-        34,
-        105,
-        0.97)
+            34,
+            105,
+            0.97)
 }
 
 section#contactSection .icon {
     text-align: center;
     top: 50px;
     color: rgba(242,
-        244,
-        245,
-        0.92)
+            244,
+            245,
+            0.92)
 }
 
 section#contactSectionAbout .icon {
     text-align: center;
     color: rgba(8,
-        34,
-        105,
-        0.97)
+            34,
+            105,
+            0.97)
 }
 
 @media (max-width: 768px) {
@@ -1913,9 +1955,9 @@ section#contactSectionAbout .icon {
         text-align: center;
         top: 15px;
         color: rgba(242,
-            244,
-            245,
-            0.92)
+                244,
+                245,
+                0.92)
     }
 
     section#contactSection h5 {
