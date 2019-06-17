@@ -552,6 +552,9 @@ p,
     color: #0b1a29
 }
 
+span{
+    text-decoration: line-through;
+}
 .section-title {
     text-align: center;
     margin-top: 10px;
