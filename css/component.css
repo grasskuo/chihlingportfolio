@@ -718,7 +718,7 @@ header video {
         width: 100%;
         height: auto;
     }
-
+}
 
     /*
 header.jumbotron:after {
@@ -794,14 +794,12 @@ header.jumbotron:after {
         position: absolute;
         margin-top: 40%;
     }
-}
 
 @media screen and (max-width: 769px) {
     header.jumbotron {
         height: 100vh;
         position: relative;
         background-position: center;
-        background-attachment: cover;
         padding-bottom: 0;
         overflow: hidden;
 
@@ -842,7 +840,7 @@ header.jumbotron:after {
 
     header.jumbotron .header-scroll-down-btn {
             position: absolute;
-            margin-top: 90%;
+            margin-top: 80%;
     }
 
 
