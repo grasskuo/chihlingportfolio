@@ -1321,10 +1321,10 @@ section#skillSection h5 {
 .skill-card__inner {
     background-color: #fefefe;
     border-radius: 4px;
-    box-shadow: 0 3px 10px rgba(0,
+    box-shadow: 0 3px 30px rgba(0,
         0,
         0,
-        0.5);
+        0.1);
     padding: 24px;
     padding-left: 48px;
 }
@@ -1355,10 +1355,10 @@ section#skillSection h5 {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    box-shadow: 0 3px 10px rgba(0,
+    box-shadow: 0 3px 20px rgba(0,
         0,
         0,
-        0.5);
+        0.15);
     position: absolute;
     left: 0;
     top: 50%;
@@ -1482,10 +1482,10 @@ section#experience h2 {
     background-color: #fefefe;
     border-radius: 4px;
     width: calc(50% - 24px);
-    box-shadow: 0 3px 10px rgba(0,
+    box-shadow: 0 3px 20px rgba(0,
         0,
         0,
-        0.5);
+        0.15);
 }
 
 .timeline-card:before {
