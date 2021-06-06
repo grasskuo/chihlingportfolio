@@ -127,13 +127,13 @@
 
 .btn.btn--secondary {
     background-color: inherit;
-    border: 1px solid #eaaa7f;
-    color: #eaaa7f;
+    border: 1px solid #f3904d;
+    color: #f3904d;
 }
 
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
-    background-color: #eaaa7f;
+    background-color: #f3904d;
     color: #fefefe;
 }
 
@@ -590,7 +590,7 @@ nav ul.nav-list li {
     }
 
     nav ul.nav-list li:hover a {
-        color: #eaaa7f;
+        color: #f3904d;
         font-size: 26px;
         text-transform: uppercase
     }
@@ -672,7 +672,7 @@ nav ul.nav-list li {
     }
 
     nav.scroll .nav-list li:hover a {
-        color: #eaaa7f;
+        color: #f3904d;
         text-shadow: 0 0 0;
     }
 
@@ -787,7 +787,7 @@ header.jumbotron:after {
         }
 
         header.jumbotron .header-scroll-down-btn:hover i.fa {
-            color: #eaaa7f
+            color: #f3904d;
         }
 
     header.jumbotron .header-scroll-down-btn {
@@ -1010,7 +1010,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #eaaa7f;
+    background-color: #f3904d;
     text-align: center;
     text-emphasis-position: above;
     line-height: 90px;
@@ -1039,7 +1039,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
         width: 90px;
         height: 90px;
         border-radius: 50%;
-        background-color: #eaaa7f;
+        background-color: #f3904d;
         text-align: center;
         text-emphasis-position: above;
         line-height: 90px;
@@ -1503,7 +1503,7 @@ section#experience h2 {
     margin: 0px auto;
     text-align: center;
     font-size: 18px;
-    color: #EAAA7F;
+    color: #f3904d;
     line-height: 25px;
     opacity: 1;
     -moz-transition: all .5s ease;
@@ -1606,7 +1606,7 @@ section#gallerySection .col-md-4 {
     transform: translateY(0%);
     text-align: center;
     font-size: 20px;
-    color: #EAAA7F;
+    color: #f3904d;
     line-height: 25px;
     opacity: 1;
     -moz-transition: all .5s ease;
@@ -1635,7 +1635,7 @@ section#gallerySection [class^='col-']:hover h5 {
      line-height: 20px;
     text-shadow: 0 0 10px #fdfdfd;
     text-align: center;
-    color: #eaaa7f;
+    color: #f3904d;
     width: auto;
 }
 
@@ -1700,7 +1700,6 @@ section#gallerySection.btn {
 @media (max-width: 991px) and (min-width: 768px) {
     section#gallerySection .row {
         position: relative;
-        padding: top;
         padding-bottom: 10px;
     }
 
@@ -1798,7 +1797,7 @@ section#gallerySection.btn {
         transform: translateY(0%);
         text-align: center;
         font-size: 20px;
-        color: #EAAA7F;
+        color: #f3904d;
         line-height: 25px;
         opacity: 1;
         -moz-transition: all .5s ease;
@@ -1868,8 +1867,8 @@ section#gallerySection.btn {
         opacity: 1;
         font-size: 18px;
         text-shadow: 0 0 10px #fdfdfd;
-        color: #EAAA7F;
-        text-decoration-color: #EAAA7F;
+        color: #f3904d;
+        text-decoration-color: #f3904d;
         text-decoration: overline;
     }
 
