@@ -171,7 +171,7 @@
 }
 
 .btn.btn--primary {
-    background-color: #e881a7;
+    background-color: #da7c25;
 }
 
 .btn.btn--primary:hover,
@@ -254,7 +254,7 @@
 
 basicIntronSection.btn--secondary:hover,
 .btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #da7c25;
     color: #fefefe;
 }
 
@@ -377,7 +377,7 @@ basicIntronSection.btn--secondary:hover,
 }
 
 .text-btn.text-btn--primary {
-    color: #e881a7;
+    color: #da7c25;
 }
 
 .text-btn.text-btn--lg {
@@ -394,7 +394,7 @@ basicIntronSection.btn--secondary:hover,
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #e881a7;
+    background-color: #da7c25;
     transition: all 0.3s;
 }
 
@@ -1057,7 +1057,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #e881a7;
+    background-color: #da7c25;
     text-align: center;
     text-emphasis-position: above;
     line-height: 90px;
@@ -1088,7 +1088,7 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
 }
 
 .quote__name span {
-    color: #e881a7;
+    color: #da7c25;
 }
 
 .row {
@@ -1330,7 +1330,7 @@ section#skillSection h5 {
 }
 
 .skill-card__title {
-    color: #e881a7;
+    color: #da7c25;
     font-family: 'Source Sans Pro', sans-serif, 'Raleway',
         'Helvetica',
         'roboto',
@@ -1456,15 +1456,11 @@ section#experience h2 {
 .timeline {
     width: 4px;
     height: 100%;
-    background-color: #e881a7;
+    background-color: #ff9980;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 3px 10px rgba(0,
-        0,
-        0,
-        0.5);
 }
 
 .timeline-cards__row:nth-child(odd) {
@@ -1485,7 +1481,7 @@ section#experience h2 {
     box-shadow: 0 3px 10px rgba(0,
         0,
         0,
-        0.5);
+        0.3);
 }
 
 .timeline-card:before {
@@ -1493,11 +1489,7 @@ section#experience h2 {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    box-shadow: 0 3px 10px rgba(0,
-        0,
-        0,
-        0.5);
-    background-color: #e881a7;
+    background-color: #ff9980;
     position: absolute;
     top: 50%;
 }
@@ -1802,7 +1794,7 @@ section#contactSectionAbout .icon {
 }
 
 .info__email a {
-    color: #e881a7;
+    color: #da7c25;
     font-size: 18px;
     font-weight: 400;
 }
@@ -1818,7 +1810,7 @@ section#contactSectionAbout .icon {
 }
 
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #da7c25;
 }
 
 /*-------------------------*/
