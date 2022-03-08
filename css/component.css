@@ -49,7 +49,6 @@
     left: 50;
     width: 100%;
     height: 100%;
-    background-image: url("../urban-long-exposure-night.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -681,7 +680,6 @@ nav ul.nav-list li {
 
 
 header.jumbotron {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -689,35 +687,56 @@ header.jumbotron {
     background-size: cover;
     background-attachment: fixed;
     background-position: center (100);
-    background-color: #bbe6fb;
+    background: linear-gradient(180deg, #063665, #036498);
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
     color:#fff;
 }
 
-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    overflow: hidden;
+lottie-player {
+    position: relative;
+    top:300px;
     width: auto;
-    height: 100%;
+    overflow: hidden;
     z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(50%) translateY(-50%);
+    -moz-transform: translateX(50%) translateY(-50%);
+    -webkit-transform: translateX(50%) translateY(-50%);
+    transform: translateX(50%) translateY(-50%);
+    border-radius: 100%;
 }
 
-@media (min-width: 1441px) {
-    header video {
-        top: 40%;
-        width: 100%;
-        height: auto;
+@media (max-width: 768px) {
+   
+    lottie-player {
+        position: relative;
+        top:100px;
+        width: auto;
+        overflow: hidden;
+        z-index: 0;
+        -ms-transform: translateX(120%) translateY(0%);
+        -moz-transform: translateX(120%) translateY(0%);
+        -webkit-transform: translateX(120%) translateY(0%);
+        transform: translateX(120%) translateY(0%);
+        border-radius: 100%;
     }
+}
+
+    @media (max-width: 414px) {
+   
+        lottie-player {
+            position: relative;
+            top:45vh;
+            width: auto;
+            overflow: hidden;
+            z-index: 0;
+            -ms-transform: translateX(30%) translateY(0%);
+            -moz-transform: translateX(30%) translateY(0%);
+            -webkit-transform: translateX(30%) translateY(0%);
+            transform: translateX(30%) translateY(0%);
+            border-radius: 100%;
+        }
 }
 
     /*
@@ -737,7 +756,6 @@ header.jumbotron:after {
 }
 */
     header.jumbotron .container {
-        position: relative;
         text-align: left;
         z-index: 5
     }
@@ -751,7 +769,7 @@ header.jumbotron:after {
     }
 
     header.jumbotron .header-content {
-        margin-top: 0px;
+        position: relative;
     }
 
 
@@ -771,7 +789,6 @@ header.jumbotron:after {
         text-align: left;
         font-family: 'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 100;
-        text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
     }
 
     header.jumbotron .header-scroll-down-btn {
@@ -795,14 +812,13 @@ header.jumbotron:after {
         margin-top: 40%;
     }
 
-@media screen and (max-width: 769px) {
+@media (max-width: 769px) {
     header.jumbotron {
         height: 100vh;
         position: relative;
         background-position: center;
         padding-bottom: 0;
         overflow: hidden;
-
     }
 
     header.jumbotron .container {
@@ -825,9 +841,7 @@ header.jumbotron:after {
          text-align: left;
          font-family: 'roboto', 'Source Sans Pro', sans-serif;
          font-weight: 500;
-         text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
     }
-
 
     header.jumbotron h4 {
         position: absolute;
@@ -841,35 +855,34 @@ header.jumbotron:after {
     header.jumbotron .header-scroll-down-btn {
             position: absolute;
             margin-top: 80%;
-    }
+    }}
 
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
     header.container.row {
         position: absolute;
-        top: 0px
+        display: flex;
+        top: 80px
     }
 
 
     header.jumbotron h3 {
         position: absolute;
-        top: 120px;
+        top: 70px;
         font-size: 35px;
         color: #fff;
         text-align: left;
         font-family: 'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 500;
-        text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
     }
 
     header.jumbotron h4 {
         position: absolute;
-        top: 180px;
+        top: 130px;
         color: #fff;
         text-align: left;
         font-family: 'Montserrat', 'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 100;
-        text-shadow: 1px .8px 1px rgba(5, 5, 5, 0.12);
     }
 
     header.jumbotron .header-scroll-down-btn {
@@ -958,7 +971,6 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     color: #fefefe;
 }
 
-}
 
 @media (max-width: 768px) {
     .hero__heading {
@@ -1021,7 +1033,6 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     margin-top: -10px;
     z-index: 1;
     align-self: center;
-    box-shadow: 1px 3px 6px rgb(1, 1, 1, .1)
 }
 
 /*#e881a7*/
