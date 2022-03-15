@@ -881,7 +881,7 @@ header.jumbotron:after {
         top: 130px;
         color: #fff;
         text-align: left;
-        font-family: 'Montserrat', 'roboto', 'Source Sans Pro', sans-serif;
+        font-family:'roboto', 'Source Sans Pro', sans-serif;
         font-weight: 100;
     }
 
@@ -1503,13 +1503,13 @@ section#experience h2 {
 .box1 span {
     position: relative;
     font-family: 'roboto';
-    font-weight: 500;
+    font-weight: 400;
     z-index: 5;
-    transform: translateY(-50%);
+    transform: translateY(20%);
     align-self:center;
-    margin: 12px auto;
     text-align: center;
     font-size: 18px;
+    padding: 4px;
     color: #d87c03;
     line-height: 1;
     opacity: 1;
@@ -1532,11 +1532,10 @@ section#experience h2 {
 }
 
 .box1 > span {
-    font-size: 3.8vh;
     display: block;
     text-align: center;
     height: 10vh;
-    line-height: 2.6;
+    line-height: 1.5;
 }
 
 .box1:hover {
@@ -1550,11 +1549,14 @@ section#experience h2 {
 
 
 .workscontainer {
-    /*
-    position: relative;
-    padding-top: 0px;
-    padding-bottom: 0px
-*/
+margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+    .workscontainer {
+        margin-top: 0px;
+        }
+    
 }
 
 section#gallerySection .row {
@@ -1607,12 +1609,12 @@ section#gallerySection .col-md-4 {
 .box1 span {
     position: relative;
     font-family: 'roboto';
-    font-weight: 800;
+    font-weight: 400;
     z-index: 5;
-    padding-bottom: 18px;
-    transform: translateY(0%);
+    transform: translateY(20%);
     text-align: center;
     font-size: 18px;
+    padding: 4px;
     color: #f3904d;
     opacity: 1;
     -moz-transition: all .5s ease;
@@ -1797,12 +1799,13 @@ section#gallerySection.btn {
     .box1 span {
         position: relative;
         font-family: 'roboto';
-        font-weight: 800;
+        font-weight: 400;
         z-index: 5;
-        padding-top: 15px;
-        transform: translateY(0%);
+        transform: translateY(20%);
         text-align: center;
-        font-size: 20px;
+        align-self: center;
+        font-size: 18px;
+        padding: 4px;
         color: #f3904d;
         opacity: 1;
         -moz-transition: all .5s ease;
@@ -2175,7 +2178,7 @@ section#contactSectionAbout .icon {
 
     .info {
         text-align: center;
-        padding-top: 0px;
+        padding-top: 50px;
         position: relative;
     }
 
