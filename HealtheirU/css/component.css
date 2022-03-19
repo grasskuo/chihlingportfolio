@@ -1244,19 +1244,19 @@ hr.style13 {
 }
 
 .footercontainer {
-    height: 30px
+    height: 30px;
 }
 
 .footer {
     margin-top: none;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #0f2f4b;
+    background-color: #fff;
 }
 
 .copyright {
     text-align: center;
-    color: #fefefe;
+    color: #214461;
     font-size: 14px;
 }
 
@@ -1842,11 +1842,7 @@ section#gallerySection.btn {
 /* $Contact
 ---------------------------*/
 section#contactSection {
-    background-image: url(../img/nikita-kachanovsky.jpg);
-    background-position: bottom(100px);
-    background-position: left(30px);
-    background-attachment: fixed;
-    background-size: cover;
+    background: linear-gradient(0deg, hsl(202, 53%, 50%), #89bddb);
     height: 400px;
     margin-top: 100px;
     padding-top: 80px;
@@ -2038,7 +2034,7 @@ section#contactSectionAbout .icon {
 
 .copyright {
     text-align: center;
-    color: #fefefe;
+    color: #214461;
     font-size: 14px;
 }
 
