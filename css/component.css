@@ -104,7 +104,7 @@
     overflow: hidden;
     user-select: none;
     user-drag: none;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .btn--primary,
@@ -276,7 +276,7 @@ basicIntronSection.btn--secondary:hover,
 .icon-btn .icon {
     display: block;
     text-align: center;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .icon-btn .icon:hover {
@@ -338,7 +338,7 @@ basicIntronSection.btn--secondary:hover,
     width: 0%;
     height: 2px;
     background-color: #e881a7;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .text-btn.text-btn--lg:hover:before {
@@ -1927,7 +1927,7 @@ section#gallerySection.btn {
     border-radius: 20px/50px;
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .button:hover {

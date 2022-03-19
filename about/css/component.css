@@ -162,7 +162,7 @@
     overflow: hidden;
     user-select: none;
     user-drag: none;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .btn--primary,
@@ -333,7 +333,7 @@ basicIntronSection.btn--secondary:hover,
 .icon-btn .icon {
     display: block;
     text-align: center;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .icon-btn .icon:hover {
@@ -395,7 +395,7 @@ basicIntronSection.btn--secondary:hover,
     width: 0%;
     height: 2px;
     background-color: #e881a7;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .text-btn.text-btn--lg:hover:before {
@@ -1139,12 +1139,12 @@ header.jumbotron .header-scroll-down-btn:hover i.fa {
     margin-top: none;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #0f2f4b;
+    background-color: #fff;
 }
 
 .copyright {
     text-align: center;
-    color: #fefefe;
+    color: rgb(15, 47, 75);
     font-size: 14px;
 }
 
@@ -1836,7 +1836,7 @@ section#contactSectionAbout .icon {
 
 .copyright {
     text-align: center;
-    color: #fefefe;
+    color: rgb(15, 47, 75);
     font-size: 14px;
 }
 

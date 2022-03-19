@@ -161,7 +161,7 @@
     overflow: hidden;
     user-select: none;
     user-drag: none;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .btn--primary,
@@ -331,7 +331,7 @@ basicIntronSection.btn--secondary:hover,
 .icon-btn .icon {
     display: block;
     text-align: center;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .icon-btn .icon:hover {
@@ -393,7 +393,7 @@ basicIntronSection.btn--secondary:hover,
     width: 0%;
     height: 2px;
     background-color: #e881a7;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .text-btn.text-btn--lg:hover:before {
@@ -1247,12 +1247,12 @@ hr.style13 {
     margin-top: none;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #0f2f4b;
+    background-color: #fff;
 }
 
 .copyright {
     text-align: center;
-    color: #fefefe;
+    color: rgb(15, 47, 75);
     font-size: 14px;
 }
 
@@ -1745,7 +1745,7 @@ section#gallerySection.btn {
     border-radius: 20px/50px;
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .button:hover {
@@ -1907,11 +1907,7 @@ section#gallerySection.btn {
 /* $Contact
 ---------------------------*/
 section#contactSection {
-    background-image: url(../img/justin-luebke-43531-unsplash.jpg);
-    background-position: bottom(100px);
-    background-position: left(30px);
-    background-attachment: fixed;
-    background-size: cover;
+    background: linear-gradient(0deg, hsl(202, 53%, 50%), #89bddb);
     height: 400px;
     margin-top: 100px;
     padding-top: 60px;
@@ -2095,7 +2091,7 @@ section#contactSectionAbout .icon {
 
 .copyright {
     text-align: center;
-    color: #fefefe;
+    color: rgb(15, 47, 75);
     font-size: 14px;
 }
 
