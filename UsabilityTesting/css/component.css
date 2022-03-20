@@ -1908,11 +1908,7 @@ section#contactSectionAbout .icon {
 
 @media (max-width: 768px) {
     section#contactSection {
-        background-image: url(../img/justin-luebke-43531-unsplash.jpg);
-        background-position: bottom(100px);
-        background-position: left(30px);
-        background-attachment: local;
-        background-size: cover;
+       background: linear-gradient(0deg, hsl(202, 53%, 50%), #89bddb);
         height: 400px;
         margin-top: 100px;
         padding-top: 60px;

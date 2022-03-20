@@ -1756,9 +1756,9 @@ section#gallerySection.btn {
     .container2 {
         display: inline-grid;
         width: 100%;
-        padding: 4% 2%;
+        padding: 0% 2%;
         box-sizing: border-box;
-        height: 130vh;
+        height: 195vh;
         width: 100%;
         margin-left: 0%;
     }
@@ -1803,7 +1803,7 @@ section#gallerySection.btn {
         text-align: center;
         align-self: center;
         font-size: 18px;
-        padding: 4px;
+        padding: 16px;
         color: #f3904d;
         opacity: 1;
         -moz-transition: all .5s ease;
