@@ -2147,7 +2147,7 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .info__email {
@@ -2155,7 +2155,7 @@ section#contactSectionAbout .icon {
 }
 
 .info__email a {
-    color: #e881a7;
+    color: #fefefe;
     font-size: 18px;
     font-weight: 400;
 }
@@ -2171,21 +2171,21 @@ section#contactSectionAbout .icon {
 }
 
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #fefefe;
 }
 
 @media (max-width: 768px) {
 
     .info {
         text-align: center;
-        padding-top: 50px;
+        padding-top: 70px;
         position: relative;
     }
 
 }
 
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #fefefe;
     bottom: 10px;
     top: 5px
 }

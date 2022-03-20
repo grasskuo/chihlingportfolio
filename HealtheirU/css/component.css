@@ -1963,7 +1963,7 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .info__email {
@@ -1994,7 +1994,7 @@ section#contactSectionAbout .icon {
 
     .info {
         text-align: center;
-        padding-top: 25px;
+        padding-top: 50px;
         position: relative;
     }
 

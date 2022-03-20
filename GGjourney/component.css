@@ -1880,7 +1880,7 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .info__email {
@@ -1911,7 +1911,7 @@ section#contactSectionAbout .icon {
 
     .info {
         text-align: center;
-        padding-top: 25px;
+        padding-top: 50px;
         position: relative;
     }
 
@@ -1928,7 +1928,7 @@ section#contactSectionAbout .icon {
 
 /* $footer
 ---------------------------*/
-#footer: {
+#footer {
     height: 60px;
 }
 

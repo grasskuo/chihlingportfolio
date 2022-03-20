@@ -2060,9 +2060,9 @@ section#contactSectionAbout .icon {
 
 @media (max-width: 768px) {
 
-    .info {
+      .info {
         text-align: center;
-        padding-top: 0px;
+        padding-top: 40px;
         position: relative;
     }
 
