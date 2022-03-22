@@ -180,13 +180,13 @@
 
 .btn.btn--secondary {
     background-color: inherit;
-    border: 1px solid #eaaa7f;
-    color: #eaaa7f;
+    border: 1px solid  #f3904d;
+    color:  #f3904d;
 }
 
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
-    background-color: #eaaa7f;
+    background-color:  #f3904d;
     color: #fefefe;
 }
 
@@ -634,7 +634,7 @@ nav ul.nav-list li {
     }
 
     nav ul.nav-list li:hover a {
-        color: #eaaa7f;
+        color:  #f3904d;
         font-size: 26px;
         text-transform: uppercase
     }
@@ -713,7 +713,7 @@ nav ul.nav-list li {
     }
 
     nav.scroll .nav-list li:hover a {
-        color: #eaaa7f;
+        color:  #f3904d;
         text-shadow: 0 0 0;
     }
 

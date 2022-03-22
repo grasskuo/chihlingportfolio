@@ -636,7 +636,7 @@ nav ul.nav-list li {
     }
 
     nav ul.nav-list li:hover a {
-        color: #eaaa7f;
+        color:  #f3904d;
         font-size: 26px;
         text-transform: uppercase
     }
@@ -717,7 +717,7 @@ nav ul.nav-list li {
     }
 
     nav.scroll .nav-list li:hover a {
-        color: #eaaa7f;
+        color:  #f3904d;
         text-shadow: 0 0 0;
     }
 
