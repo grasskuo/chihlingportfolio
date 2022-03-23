@@ -1917,10 +1917,10 @@ section#gallerySection.btn {
 
 }
 
-.popup h2 {
+.popup h3 {
     margin-top: 0;
     color: #333;
-    font-family:'Source Sans Pro', sans-serif;
+    font-family:'roboto','Source Sans Pro', sans-serif;
 }
 
 .popup .close {
@@ -1935,7 +1935,7 @@ section#gallerySection.btn {
 }
 
 .popup .close:hover {
-    color: #06D85F;
+    color: #d87c03;
 }
 
 .popup .content {
