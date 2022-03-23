@@ -1990,7 +1990,7 @@ section#contactSection {
     margin-top: 100px;
     padding-top: 60px;
     padding-bottom: 0px;
-    background: linear-gradient(0deg, hsl(202, 53%, 50%), #89bddb);
+    background: linear-gradient(0deg, #4f9cc9, #fff);
     /* background-color: #89bddb; */
 }
 

@@ -1907,7 +1907,7 @@ section#gallerySection.btn {
 /* $Contact
 ---------------------------*/
 section#contactSection {
-    background: linear-gradient(0deg, hsl(202, 53%, 50%), #89bddb);
+    background: linear-gradient(0deg, #4f9cc9, #fff);
     height: 400px;
     margin-top: 100px;
     padding-top: 60px;
