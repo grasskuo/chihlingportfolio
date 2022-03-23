@@ -1467,6 +1467,7 @@ section#experience h2 {
     padding: 2% 1%;
     box-sizing: border-box;
     height: 60vh;
+    max-height: 600px;
     width: 75%;
     margin-left: 12.5555%;
 }
