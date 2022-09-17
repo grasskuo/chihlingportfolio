@@ -1983,8 +1983,6 @@ section#gallerySection.btn {
 
 /* $Contact
 ---------------------------*/
-/* $Contact
----------------------------*/
 section#contactSection {
     height: 400px;
     margin-top: 100px;
@@ -2071,10 +2069,6 @@ section#contactSectionAbout .icon {
         font-family: inherit
     }
 
-    .info {
-        text-align: center;
-    }
-
 }
 }
 
@@ -2130,10 +2124,6 @@ section#contactSectionAbout .icon {
 
 /* $footer
 ---------------------------*/
-
-.footer {
-    padding-bottom: 20px;
-}
 
 .final-text {
     text-align: center;
