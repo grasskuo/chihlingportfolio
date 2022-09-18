@@ -420,8 +420,7 @@ a {
 
 
 
-p,
-    {
+p{
     color: #0b1a29
 }
 
@@ -1618,7 +1617,7 @@ section#gallerySection [class^='col-']:hover img {
 section#gallerySection img {
     position: relative;
     z-index: 1;
-    height: auto;
+    /* height: auto; */
     width: 100%;
 
     /* -webkit-filter: grayscale(100%);
@@ -1651,7 +1650,7 @@ section#gallerySection.btn {
         right: 0px;
         margin: 0px;
         z-index: 1;
-        width: 100%;
+        height: auto;
         /* -webkit-filter: grayscale(100%);
         filter: grayscale(100%); */
         -moz-transition: all .5s ease;
@@ -1661,11 +1660,11 @@ section#gallerySection.btn {
     }
 
     section#gallerySection h5 {
-        position: absolute;
+        position: relative;
         font-family: 'roboto';
         z-index: 5;
         top: 0%;
-        transform: translateY(-50%);
+        transform: translateY(50%);
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -1786,7 +1785,7 @@ section#gallerySection.btn {
         margin: 10px;
         padding-bottom: 0px;
         z-index: 1;
-        width: 100%;
+        height: auto;
         /* -webkit-filter: grayscale(100%);
         filter: grayscale(100%); */
         -moz-transition: all .1s ease;
