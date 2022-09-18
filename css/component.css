@@ -1045,7 +1045,7 @@ header.jumbotron:after {
 }
 
 .content {
-    background-color: #fff;
+    background-color: none;
 }
 
 .clearfix:after {
@@ -1924,13 +1924,13 @@ section#gallerySection.btn {
 
 .popup .close {
     position: absolute;
-    top: 20px;
     right: 30px;
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    z-index: 10;
 }
 
 .popup .close:hover {
@@ -1938,7 +1938,7 @@ section#gallerySection.btn {
 }
 
 .popup .content {
-    max-height: 85%;
+    max-height: 100%;
     overflow: auto;
 
 }
