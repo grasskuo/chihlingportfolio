@@ -1805,6 +1805,7 @@ section#gallerySection.btn {
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    z-index: 10;
 }
 
 .popup .close:hover {
