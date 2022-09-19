@@ -1230,19 +1230,32 @@ hr.style13 {
 
 /* $footer
 ---------------------------*/
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 5px 5px -5px rgba(39, 39, 39, 0.11) inset;
+}
+
 #footer {
     height: 60px;
 }
 
 .footercontainer {
-    height: 30px
+    height: 30px;
+    display: inline-flex;
 }
 
 .footer {
-    margin-top: none;
+    margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #fff;
+    padding-inline: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer { padding-inline: 20px;
+    }
 }
 
 .copyright {
@@ -1251,49 +1264,22 @@ hr.style13 {
     font-size: 14px;
 }
 
-/*-------------------------*/
-
-/* $About
+/* $footer
 ---------------------------*/
-section#basicIntronSection.row {
+
+
+.final-text {
     text-align: center;
-    position: absolute;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
 }
 
-section#basicIntronSection h3 {
-    text-align: center
-}
-
-section#basicIntronSection .icon {
+.copyright {
     text-align: center;
-    color: #0f476a
-}
-
-section#basicIntronSection .portrait {
-    width: 150px;
-    height: 150px;
-    display: block;
-    background-size: contain;
-    margin: 0 auto 10px
-}
-
-
-.textcontainer {
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-@media screen and (max-width: 480px) {
-    .textcontainer {
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
+    color: rgb(39, 83, 121);
+    font-size: 14px;
 }
 
 /*-------------------------*/
@@ -1937,7 +1923,6 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 80px;
 }
 
 .info__email {
@@ -1945,67 +1930,30 @@ section#contactSectionAbout .icon {
 }
 
 .info__email a {
-    color: #e881a7;
+    color: #0d4a9b;
     font-size: 18px;
     font-weight: 400;
 }
 
-.info__phone {
-    margin-bottom: 16px;
-}
-
-.info__phone a {
-    color: #fefefe;
-    font-size: 24px;
-    font-weight: 400;
-}
 
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #0d4a9b;
 }
 
 @media (max-width: 768px) {
 
     .info {
         text-align: center;
-        padding-top: 50px;
         position: relative;
     }
 
 }
 
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #0d4a9b;
     bottom: 10px;
     top: 5px
 }
-}
-
-/*-------------------------*/
-
-/* $footer
----------------------------*/
-#footer: {
-    height: 60px;
-}
-
-.footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.final-text {
-    text-align: center;
-    max-width: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    color: #fefefe;
-}
-
-.copyright {
-    text-align: center;
-    color: rgb(15, 47, 75);
-    font-size: 14px;
 }
 
 /*-------------------------*/
