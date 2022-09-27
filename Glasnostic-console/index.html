@@ -320,10 +320,11 @@
                     <h4 class="articleW">Topology and metrics</h4>
                     <h6 class="articleS">
                         I start with reducing the colors of the endpoints. 
-                        To help reduce the cognitive load, let's not make it looks complex. Furthermore, the CEO found our glossary of Clients and Services is not straightforward. So he changes the words to call it Source and Destinations.
-                        Eventually, we only need three colors to present endpoints—one for source, one for destinations, and the last for the mid-end points.
-                        Moreover, I care about accessibility. For example, if you check the blue and purple with a color-blind simulator, you'll realize you can't distinguish these two colors. Therefore, we must need to avoid using them together.
-                        To show the branding on the console, I decided to use the green colors of our logo. So I use Stark to simulate color-blind vision and double-check if these green colors can easily distinguish with color-blind vision. I intend to make one green color approaching yellow and another towards blue. Another good tool is Adobe color wheels to check if these colors pass accessibility.
+                        To help reduce the cognitive load, let's not make topology looks complex. Furthermore, the CEO found our glossary of Clients and Services is not straightforward. So he changes the words to call it Source and Destinations.
+                        Eventually, we only need three colors to present endpoints—one for source, one for destinations, and the last for the mid-endpoints.
+                        Moreover, I care about accessibility. For example, if you check the blue and purple with a color-blind simulator, you'll realize you can't distinguish these two colors. Therefore, we must need to avoid using blue and purple together.
+                        To show the branding on the console, I decided to use the green colors of our logo. So I use Stark to simulate color-blind vision and double-check if these green colors can easily distinguish with color-blind vision.
+                        I intend to make one green color approaching yellow and another towards blue. Another good tool is Adobe color wheels to check if these colors pass accessibility.
                         Finally, I compared the endpoints' green colors with link line colors.
                         <br><br>
                     </h6>
@@ -338,8 +339,8 @@
                         We need to move the current control buttons to have a cleaner layout.
                         It shouldn't be like a wall between graphs and metrics. A better place is to put it into the top navbar. 
                         We use icons to be our control buttons. 
-                        However, these icons are not general to see, so don't forget to provide a tooltip or text to explain what it is. When a user hovers over the buttons, the dropdown expands and can see the text on the top. 
-                        One more bonus change is that I made the user can switch the environment directly from the dropdown. There is no need to show a pop modal; it takes two steps to switch to another environment.
+                        However, these icons are not universal icons, so don't forget to provide a tooltip or text to explain what it is. When a user hovers over the buttons, the dropdown shows and can see the text on the top. 
+                        One more bonus change is that I made the user can switch the environment directly from the dropdown. There is no need to show a pop modal which takes two steps to switch to another environment.
                         <br>
                     </h6>
                 </div> 
@@ -376,9 +377,9 @@
                 <div class="col-md-12 wow fadeIn" data-wow-delay="0.2s">
                     <h4 class="articleW">Redefine colors with elevation levels</h4>
                     <h6 class="articleS">
-                        Having a dark theme is my idea, and I insist on having it no matter how difficult the path is. 
+                        Having a dark theme is my idea, and I insist on it no matter how difficult the proccess is. 
                         However, designing a new theme for the console is a big challenge for me because it has tons of elements and won't be simply tweaked the lightness of light theme colors. Besides, the original light theme metrics also need adjustment. 
-                        So I started by searching the methods how to build a theme:<br>
+                        So I started by searching the methodsc of how to build a theme:<br>
                         <ol><li>Research showed <a target="_blank" rel="noopener" href ="https://material.io/design/environment/elevation.html#elevation-in-material-design">elevation </a> levels are an excellent way to support reorganizing and reviewing the current theme.</li>
                             <li>Break down every element on the console and determine its level. To prevent adding too many new colors, I checked the colors we already used and tried to reuse them again.</li>
                             <li>Generate colors, apply colors by levels, and do the A/B testing with colleagues, then continue to reiterate and repeat.</li>
@@ -469,7 +470,7 @@
                                 I consumed more time than I expected. <br><br>
 
                             <li><span class="article">What might I try NEXT?</span><br>
-                                If we have more time, we should consider having the main side menu. 
+                                If we have more time, we should consider having the main side menu and redesign the confusing aggregate endpoint metrics.
                                 Also, provide a more flexible layout. Check our competitors, most of them allow users to choose what to show on their dashboard. 
                                 On the contrary, we don't let a user see metrics only. We always present a service map on the console.
                         </li></ul>
