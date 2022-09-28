@@ -1943,12 +1943,12 @@ section#gallerySection.btn {
 
 }
 .popup img{
-   
     position: relative;
     z-index: 1;
     height:250px;
     width: auto;
     background-size: cover;
+    object-fit: cover;
 
     /* -webkit-filter: grayscale(100%);
     filter: grayscale(100%); */
