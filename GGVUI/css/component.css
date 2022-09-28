@@ -170,7 +170,7 @@
 }
 
 .btn.btn--primary {
-    background-color: #e881a7;
+    background-color: #d87c03;
 }
 
 .btn.btn--primary:hover,
@@ -252,7 +252,7 @@
 
 basicIntronSection.btn--secondary:hover,
 .btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #d87c03;
     color: #fefefe;
 }
 
@@ -375,7 +375,7 @@ basicIntronSection.btn--secondary:hover,
 }
 
 .text-btn.text-btn--primary {
-    color: #e881a7;
+    color: #d87c03;
 }
 
 .text-btn.text-btn--lg {
@@ -392,7 +392,7 @@ basicIntronSection.btn--secondary:hover,
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #e881a7;
+    background-color: #d87c03;
     transition: all 0.2s;
 }
 
@@ -1182,7 +1182,7 @@ font-weight: 550;
 }
 
 .diaryStudy__name span {
-    color: #e881a7;
+    color: #d87c03;
 }
 
 .row {
@@ -1391,7 +1391,7 @@ section#skillSection h5 {
 }
 
 .skill-card__title {
-    color: #e881a7;
+    color: #d87c03;
     font-family: 'Raleway',
         'Helvetica',
         'roboto',
@@ -1501,7 +1501,7 @@ section#experience h2 {
 .timeline {
     width: 4px;
     height: 100%;
-    background-color: #e881a7;
+    background-color: #d87c03;
     position: absolute;
     top: 0;
     left: 50%;
@@ -1542,7 +1542,7 @@ section#experience h2 {
         0,
         0,
         0.5);
-    background-color: #e881a7;
+    background-color: #d87c03;
     position: absolute;
     top: 50%;
 }
@@ -1974,7 +1974,7 @@ section#contactSectionAbout .icon {
 }
 
 .info__email a {
-    color: #e881a7;
+    color: #d87c03;
     font-size: 18px;
     font-weight: 400;
 }
@@ -1990,7 +1990,7 @@ section#contactSectionAbout .icon {
 }
 
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #d87c03;
 }
 
 @media (max-width: 768px) {
@@ -2004,7 +2004,7 @@ section#contactSectionAbout .icon {
 }
 
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #d87c03;
     bottom: 10px;
     top: 5px
 }

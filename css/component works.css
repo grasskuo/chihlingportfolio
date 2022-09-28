@@ -107,7 +107,7 @@
 }
 
 .btn.btn--primary {
-    background-color: #e881a7;
+    background-color: #d87c03;
 }
 
 .btn.btn--primary:hover,
@@ -117,13 +117,13 @@
 
 .btn.btn--secondary {
     background-color: inherit;
-    border: 1px solid #e881a7;
-    color: #e881a7;
+    border: 1px solid #d87c03;
+    color: #d87c03;
 }
 
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #d87c03;
     color: #fefefe;
 }
 
@@ -190,7 +190,7 @@
 
 basicIntronSection.btn--secondary:hover,
 .btn--secondary:active {
-    background-color: #e881a7;
+    background-color: #d87c03;
     color: #fefefe;
 }
 
@@ -306,7 +306,7 @@ basicIntronSection.btn--secondary:hover,
     color: #484848;
 }
 .text-btn.text-btn--primary {
-    color: #e881a7;
+    color: #d87c03;
 }
 .text-btn.text-btn--lg {
     font-size: 20px;
@@ -321,7 +321,7 @@ basicIntronSection.btn--secondary:hover,
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #e881a7;
+    background-color: #d87c03;
     transition: all 0.2s;
 }
 .text-btn.text-btn--lg:hover:before {
@@ -890,7 +890,7 @@ header.jumbotron h3 {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #e881a7;
+    background-color: #d87c03;
     text-align: center;
     text-emphasis-position: above;
     line-height: 90px;
@@ -918,7 +918,7 @@ header.jumbotron h3 {
     color: #484848;
 }
 .quote__name span {
-    color: #e881a7;
+    color: #d87c03;
 }
 .row {
     background-color: none;
@@ -1085,7 +1085,7 @@ section#skillSection h5 {
     padding-left: 48px;
 }
 .skill-card__title {
-    color: #e881a7;
+    color: #d87c03;
     font-family: 'Raleway',
     'Helvetica',
     'roboto',
@@ -1185,7 +1185,7 @@ section#experience h2 {
 .timeline {
     width: 4px;
     height: 100%;
-    background-color: #e881a7;
+    background-color: #d87c03;
     position: absolute;
     top: 0;
     left: 50%;
@@ -1222,7 +1222,7 @@ section#experience h2 {
     0,
     0,
     0.5);
-    background-color: #e881a7;
+    background-color: #d87c03;
     position: absolute;
     top: 50%;
 }
@@ -1448,7 +1448,7 @@ section#contactSectionAbout .icon {
 
 }
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #d87c03;
     bottom:10px;
     top: 5px
 }
@@ -1474,7 +1474,7 @@ section#contactSectionAbout .icon {
     margin-bottom: 16px;
 }
 .info__email a {
-    color: #e881a7;
+    color: #d87c03;
     font-size: 18px;
     font-weight: 400;
 }
@@ -1487,7 +1487,7 @@ section#contactSectionAbout .icon {
     font-weight: 400;
 }
 .info__social-bar .icon-btn {
-    color: #e881a7;
+    color: #d87c03;
 }
 
 /*-------------------------*/
