@@ -1239,31 +1239,6 @@ font-weight: 550;
 
 /*-------------------------*/
 
-/* $footer
----------------------------*/
-#footer {
-    height: 60px;
-}
-
-.footercontainer {
-    height: 30px
-}
-
-.footer {
-    margin-top: none;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #fff;
-}
-
-.copyright {
-    text-align: center;
-    color: rgb(15, 47, 75);
-    font-size: 14px;
-}
-
-/*-------------------------*/
-
 /* $About
 ---------------------------*/
 section#basicIntronSection.row {
@@ -1966,7 +1941,6 @@ section#contactSectionAbout .icon {
 ---------------------*/
 .info {
     text-align: center;
-    padding-top: 80px;
 }
 
 .info__email {
@@ -1974,37 +1948,27 @@ section#contactSectionAbout .icon {
 }
 
 .info__email a {
-    color: #d87c03;
+    color: #0d4a9b;
     font-size: 18px;
     font-weight: 400;
 }
 
-.info__phone {
-    margin-bottom: 16px;
-}
-
-.info__phone a {
-    color: #fefefe;
-    font-size: 24px;
-    font-weight: 400;
-}
 
 .info__social-bar .icon-btn {
-    color: #d87c03;
+    color: #0d4a9b;
 }
 
 @media (max-width: 768px) {
 
     .info {
         text-align: center;
-        padding-top: 50px;
         position: relative;
     }
 
 }
 
 .info__social-bar .icon-btn {
-    color: #d87c03;
+    color: #0d4a9b;
     bottom: 10px;
     top: 5px
 }
@@ -2014,21 +1978,32 @@ section#contactSectionAbout .icon {
 
 /* $footer
 ---------------------------*/
-#footer: {
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 5px 5px -5px rgba(39, 39, 39, 0.11) inset;
+}
+
+#footer {
     height: 60px;
 }
 
-.footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.footercontainer {
+    height: 30px;
+    display: inline-flex;
 }
 
-.final-text {
-    text-align: center;
-    max-width: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    color: #fefefe;
+.footer {
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    padding-inline: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer { padding-inline: 20px;
+    }
 }
 
 .copyright {
@@ -2036,6 +2011,25 @@ section#contactSectionAbout .icon {
     color: rgb(15, 47, 75);
     font-size: 14px;
 }
+
+/* $footer
+---------------------------*/
+
+
+.final-text {
+    text-align: center;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    color: rgb(39, 83, 121);
+    font-size: 14px;
+}
+
 
 /*-------------------------*/
 
