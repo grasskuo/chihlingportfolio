@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+      content="width=device-width, initial-scale=1, maximum-scale=5.0"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="renderer" content="webkit" />
@@ -67,17 +67,17 @@
   <!-- note nav -->
   <nav>
     <!-- 漢堡按鈕 -->
-    <button class="show-menu-btn" id="showMenuBtn"></button>
-    <a href="" class="brand">Chih-Ling KUO</a>
+    <button class="show-menu-btn" id="showMenuBtn" aria-label="hamburger"></button>
+    <a href="https://chihlingkuo.com/" class="brand">Chih-Ling KUO</a>
     <ul class="nav-list">
       <li>
-        <a class="scroll-btn" href="#gallerySection">Works</a>
+        <a class="scroll-btn" href="#gallerySection" aria-label="See my works">Works</a>
       </li>
       <li>
-        <a class="scroll-btn" href="../about/index.html#contactSectionAbout">Contact</a>
+        <a class="scroll-btn" href="../about/index.html#contactSectionAbout" aria-label="See my contact info">Contact</a>
       </li>
       <li>
-        <a class="scroll-btn" href="../about/index.html">About</a>
+        <a class="scroll-btn" href="../about/index.html" aria-label="Know more about Chihling">About</a>
       </li>
     </ul>
   </nav>
@@ -104,7 +104,7 @@
           </div>
         </div>
         <a
-          href="#gallerySection"
+          href="#gallerySection" aria-label="See My works"
           class="scroll-btn header-scroll-down-btn col-xs-push-6"
           ><i class="fa fa-chevron-down" aria-hidden="true"></i
         ></a>
@@ -123,13 +123,13 @@
       <section id="gallerySection" style="margin-top: 100px;"></section>
       <div class="container2">
         <div class="box1 wow fadeIn" data-wow-delay="0.1s">
-          <a class="box1" href="../Glasnostic-console/index.html">
+          <a class="box1" href="../Glasnostic-console/index.html" aria-label="See case study of Glasnostic revisions">
             <img src="img/Console-redesign-cover.jpg" alt="Glasnostic Console Revisions" />
             <span>Glasnostic Console Revisions</span>
           </a>
         </div>
         <div class="box1 wow fadeIn" data-wow-delay="0.6s">
-          <a class="box1" href="../Blog%20redesign/index.html">
+          <a class="box1" href="../Blog%20redesign/index.html" aria-label="See case study of Glasnostic blog index">
             <img src="img/Bolg-redesign-cover.jpg" alt="Blog Index Redesign" />
             <span>Blog Index Redesign</span>
           </a>
@@ -138,20 +138,20 @@
       </div>
       <div class="container2">
         <div class="box1 wow fadeIn" data-wow-delay="0.1s">
-          <a class="box1" href="../GGVUI/index.html">
+          <a class="box1" href="../GGVUI/index.html" aria-label="See Voice user interface project">
             <img src="img/GGvui.gif" alt="Voice User Interface Design"/>
             <span>Voice User Interface Design</span>
           </a>
         </div>
         <div class="box1 wow fadeIn" data-wow-delay="0.1s">
-          <a class="box1" href="../GG/index.html">
+          <a class="box1" href="../GG/index.html" aria-label="See Grocery Gateway project">
             <img src="img/GG.png" alt="Grocery Gateway Project" />
             <span>Grocery Gateway Project</span>
           </a>
         </div>
         
         <div class="box1 wow fadeIn" data-wow-delay="0.6s">
-          <a class="box1" href="../HealtheirU/index.html">
+          <a class="box1" href="../HealtheirU/index.html" aria-label="See HealtheirU product design project">
             <img src="img/HealtheirU-01.png" alt="HealthierU APP for Health Enthusiast"/>
             <span>HealthierU APP for Health Enthusiast </span>
           </a>
@@ -171,25 +171,25 @@
           <section id="gallerySection" class="col-md-10 col-md-offset-1">
             <div class="row">
               <div class="col-md-6">
-                <a href="../color%20blind/index.html">
+                <a href="../color%20blind/index.html" aria-label="See Accessiblity color design">
                   <img src="img/colorblind-01-01.png" alt="Accessiblity Color Design" />
                   <h5>Accessiblity Color Design</h5>
                 </a>
               </div>
                 <div class="col-md-6">
-                  <a href="../presto-protfolio/index.html">
+                  <a href="../presto-protfolio/index.html" aria-label="See presto app redesign project">
                     <img src="img/Presto%20short.gif" alt="PRESTO APP Redesig" />
                     <h5>PRESTO APP Redesign</h5>
                   </a>
                 </div>
                 <div class="col-md-6">
-                  <a href="../diary study/index.html">
+                  <a href="../diary study/index.html" aria-label="See diary study of Audio Experience">
                     <img src="img/henry-be-228194-unsplash.jpg" alt="Diary Study of Audio Experience" />
                     <h5>Diary Study of Audio Experience</h5>
                   </a>
                 </div>
               <div class="col-md-6">
-                <a href="../GGjourney/index.html">
+                <a href="../GGjourney/index.html" aria-label="See New user Onboarding analysis">
                   <img src="img/le-buzz-567189-unsplash-GGs-01.png" alt="New user Onboarding analysis" />
                   <h5>New user Onboarding analysis</h5>
                 </a>
@@ -210,7 +210,8 @@
       <div class="info">
         <div class="social-bar info__social-bar">
           <a
-            href="https://www.linkedin.com/in/chihling-kuo-89a2ba179/"
+            href="https://www.linkedin.com/in/chihling-kuo-89a2ba179/" 
+            aria-label="Go to Chihling's linkedIn profile"
             class="icon-btn wow bounceIn"
             data-wow-delay="0.1s"
           >
