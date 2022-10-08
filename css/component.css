@@ -814,7 +814,7 @@ header.jumbotron:after {
     }
 
         header.jumbotron .header-scroll-down-btn i.fa {
-            color: white
+            color: rgb(131, 131, 131)
         }
 
         header.jumbotron .header-scroll-down-btn:hover i.fa {
@@ -823,7 +823,7 @@ header.jumbotron:after {
 
     header.jumbotron .header-scroll-down-btn {
         position: absolute;
-        margin-top: 40%;
+        margin-top: 10%;
     }
 
 @media (max-width: 768px) {
