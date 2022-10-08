@@ -693,10 +693,12 @@ nav ul.nav-list li {
     }
 
     nav.scroll {
-        background-color: white;
-        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 50px;
+        -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px)
     }
 
     nav.scroll .brand {
