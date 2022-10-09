@@ -711,18 +711,18 @@ lottie-player {
     transform: translateX(10%) translateY(-50%);
 }
 
-@media (max-width: 991px) and (min-width:769px) {
+@media (max-width: 991px) and (min-width:768px) {
 
     lottie-player {
-    -ms-transform: translateX(10%) translateY(-50%);
-    -moz-transform: translateX(10%) translateY(-50%);
-    -webkit-transform: translateX(10%) translateY(-50%);
-    transform: translateX(70%) translateY(-50%);
+    -ms-transform: translateX(-10%) translateY(-50%);
+    -moz-transform: translateX(-10%) translateY(-50%);
+    -webkit-transform: translateX(-10%) translateY(-50%);
+    transform: translateX(-10%) translateY(-50%);
 }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
    
     lottie-player {
         position: relative;
@@ -830,7 +830,8 @@ header.jumbotron:after {
     header.jumbotron {
         height: 820px;
         position: relative;
-        background-position: center;
+        background-position: left;
+        background-size: cover;
         padding-bottom: 0;
         overflow: hidden;
     }
