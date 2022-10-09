@@ -213,8 +213,8 @@
 
 .btn1.btn--thirdly {
     background-color: inherit;
-    border: 1px solid #d87c03;
-    color: #d87c03;
+    border: 1px solid #50bc20;
+    color: #50bc20;
     z-index: 10;
     object-position: left;
     position: relative;
@@ -229,7 +229,7 @@
 
 .btn1.btn--thirdly:hover,
 .btn1.btn--thirdly:active {
-    background-color: #fd94bb;
+    background-color: #50bc20;
     color: #fefefe;
 }
 
