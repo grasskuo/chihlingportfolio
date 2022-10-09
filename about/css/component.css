@@ -1412,11 +1412,8 @@ section#skillSection h5 {
     padding-top: 70px;
     padding-bottom: 160px;
     ;
-    background-color: rgba(2,
-        53,
-        98,
-        0.89);
-    background-image: url(../nikita-kachanovsky.jpg);
+    background-color: #F0F2F5;
+    background-image: url(../experience-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1427,11 +1424,9 @@ section#skillSection h5 {
     .experience {
         padding-top: 10px;
         padding-bottom: 90px;
-        0.89);
-        background-image: url(../nikita-kachanovsky.jpg);
+        background-image: url(../experience-bg.jpg);
         background-size: cover;
-        background-position: center;
-        background-attachment: local;
+        background-position: right;
         background-repeat: no-repeat;
     }
 }
