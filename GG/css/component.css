@@ -345,8 +345,8 @@ basicIntronSection.btn--secondary:hover,
 
     .btn1.btn--thirdly {
         background-color: inherit;
-        border: 1px solid #d87c03;
-        color: #d87c03;
+        border: 1px solid #50bc20;
+        color: #50bc20;
         z-index: 10;
         object-position: left;
         position: relative;
@@ -394,8 +394,8 @@ basicIntronSection.btn--secondary:hover,
 @media (min-width: 768px) and (max-width: 1024px) {
     .btn1.btn--thirdly {
         background-color: inherit;
-        border: 1px solid #d87c03;
-        color: #d87c03;
+        border: 1px solid #50bc20;
+        color: #50bc20;
         z-index: 10;
         object-position: left;
         position: relative;
@@ -414,8 +414,8 @@ basicIntronSection.btn--secondary:hover,
 
     .btn1.btn--thirdly {
         background-color: inherit;
-        border: 1px solid #d87c03;
-        color: #d87c03;
+        border: 1px solid #50bc20;
+        color: #50bc20;
         z-index: 10;
         object-position: left;
         position: relative;
@@ -438,8 +438,8 @@ basicIntronSection.btn--secondary:hover,
 @media (min-width: 320px) and (max-width: 767px) {
     .btn1.btn--thirdly {
         background-color: inherit;
-        border: 1px solid #d87c03;
-        color: #d87c03;
+        border: 1px solid #50bc20;
+        color: #50bc20;
         z-index: 10;
         object-position: left;
         position: relative;
