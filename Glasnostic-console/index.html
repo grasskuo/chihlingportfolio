@@ -128,7 +128,7 @@
                     <h3 class="title">Three phases</h3>
                     <h6 class="articleS">
                         Phase 1: Improve topology, metrics, and navigation bar<br>
-                        Phase 2: Revise current theme and design a dark theme<br>
+                        Phase 2: Add more classifiers and themes<br>
                         Phase 3: Improve topology links, legend, and layout
                     </h6>
                 </div>
@@ -242,7 +242,7 @@
                         According to the observation records, most of my colleagues became slower at reading the channel table. 
                         This is because the gap between each channel is too large and has similar colors to aggregate endpoints info. 
                         It dazzles their eyes. 
-                        In addition, some are unsure why the UI needs to use five different colors to display the client's endpoints. 
+                        In addition, some are unsure why the UI needs to use five different colors to display the destination endpoints. 
                     </h6>
                 </div>
                 <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
@@ -332,28 +332,31 @@
                         Improve topology, metrics, and navigation bar.
                     </h6>
                 </div>
-                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s"><br>
-                    <img src="img/Phase1- Service map.jpg" alt="Topology">
-                    <p class="picturenote">Accessibility of colors</p>
-                </div>
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
+                    <img src="img/Phase1- Changes.jpg" alt="2018 version v.s. 2020 version">
+                </div>   
                
                 <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
                     <h4 class="articleW">Topology and metrics</h4>
                     <h6 class="articleS">
                         I start with reducing the colors of the endpoints. 
-                        To help reduce the <a target="_blank" rel="noopener" href ="https://www.nngroup.com/articles/minimize-cognitive-load/">cognitive load</a>, let's not make topology looks complex. Furthermore, the CEO found our glossary of Clients and Services is not straightforward. So he changes the words to call it Source and Destinations.
+                        To help reduce the <a target="_blank" rel="noopener" href ="https://www.nngroup.com/articles/minimize-cognitive-load/">cognitive load</a>, let's not make topology looks complex.
                         Eventually, we only need three colors to present endpoints—one for sources, one for destinations, and the last for the mid-endpoints.
-                        Moreover, I care about accessibility. For example, if you check the blue and purple with a color-blind simulator, you'll realize you can't distinguish these two colors. Therefore, we must need to avoid using blue and purple together.
-                        To show the branding on the console, I decided to use the green colors of our logo. So I use Stark to simulate color-blind vision and double-check if these green colors can easily distinguish with color-blind vision.
+                        Moreover, I care about accessibility. For instance, if you check the blue and purple with a color-blind simulator, you'll realize you can't distinguish these two colors. Therefore, we must need to avoid using blue and purple together.
+                        <br><br>To show the branding on the console, I decided to use the green colors of our logo. So I use Stark to simulate color-blind vision and double-check if these green colors can easily distinguish with color-blind vision.
                         I intend to make one green color approaching yellow and another towards blue. Another good tool is Adobe color wheels to check if these colors pass accessibility.
                         Finally, I compared the endpoints' green colors with link line colors.
-                        <br><br>
+                  
                     </h6>
                 </div>  
-                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
-                    <img src="img/Phase1- top navigation.jpg" alt="">
-                    <p class="picturenote">Top navigation variants</p>
-                </div>   
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s"><br>
+                    <img src="img/Phase1- Service map.jpg" alt="Topology">
+                    <p class="picturenote">Accessibility of colors</p>
+                </div>
+                <div class="col-md-12"><br>
+                    <hr class="style1">
+                    <br>
+                </div>
                 <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
                     <h4 class="articleW">Top navigation</h4>
                     <h6 class="articleS">
@@ -365,21 +368,28 @@
                         <br>
                     </h6>
                 </div> 
-                
-                
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
+                    <img src="img/Phase1- top navigation.jpg" alt="">
+                    <p class="picturenote">Top navigation variants</p>
+                </div> 
+                <div class="col-md-12"><br>
+                    <hr class="style1">
+                    <br>
+                </div>
                 <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                    <img src="img/Switch classifier and shows Legend.jpg" alt="">
-                    <p class="picturenote">Switch classifier</p>
-                </div>   
-                <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                    <h4 class="articleW">Switch classifier and legend</h4>
+                    <h4 class="articleW">Show legend as popover</h4>
                     <h6 class="articleS">
                         From my competitive analysis, almost every graph shows a legend which I agree we should have too. 
-                        However, at the moment, our topology merely has three colors of links. It's super simple. Users might not need to see it as always on the graph area. Therefore, after discussion with the CEO, we decide to add legend into the classifier setting drawer.
-                        It's convenient for users. While choosing the classifier, the legend can immediately tell users what link colors mean in this classifier.
+                        However, at the moment, our topology merely has three colors of links. It's super simple. Users might not need to see it as always on the graph area. Therefore, after discussing with the CEO, we decided to add a legend as a popover.
+                        While hovering on the question icon, the legend shows as a popover.
                         <br>
                     </h6>
-                </div>                      
+                </div>               
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img src="img/Legend-1.jpg" alt="Legend of topology links">
+                    <p class="picturenote">Legend</p>
+                </div>   
+                           
                 <div class="col-md-12"><br>
                     <hr class="style13">
                     <br>
@@ -392,7 +402,7 @@
                 </div>
                 
                 <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s"><br>
-                    <img src="img/Phase2- Dark theme.jpg" alt="">
+                    <img src="img/Phase2- Dark theme.jpg" alt="Test, Reiterate and Repeat">
                     <p class="picturenote">Test, Reiterate, and Repeat</p>
                 </div>
                 <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
@@ -410,8 +420,28 @@
                          Nevertheless, I'm super happy with the outcome. It made our console a considerable difference.
                     </h6>
                 </div>  
-                
-                <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-md-12"><br>
+                    <hr class="style1">
+                    <br>
+                </div>
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
+                    <img src="img/Switch classifier and show legend.jpg" alt="Switch classifier and show legend">
+                    <p class="picturenote">Switch classifier</p>
+                </div>
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
+                    <h4 class="articleW">Switch classifier and legend</h4>
+                    <h6 class="articleS">
+                        When users switch the classifier, we show the corresponding legend immediately. 
+                        It helps users to understand the topology color changes with specific meanings. 
+                        They can realize the topology graphic with the selected classifier right away.
+                        <br>
+                    </h6>
+                </div>                    
+                <div class="col-md-12"><br>
+                    <hr class="style1">
+                    <br>
+                </div>
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
                     <h4 class="articleW">2018 vs. 2021 version</h4>
                     <h6 class="articleS">
                         Let's see the outcome of phase 1-2 completion.<br>
