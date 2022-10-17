@@ -789,7 +789,7 @@ header.jumbotron:after {
     header.jumbotron h3 {
         position: absolute;
         top: 120px;
-        font-size: 35px;
+        font-size: 40px;
         color: #337ab7;
         font-family: 'Caveat', 'Source Sans Pro', sans-serif;
         font-weight: 500;
@@ -1896,6 +1896,7 @@ section#gallerySection.btn {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
@@ -1907,6 +1908,7 @@ section#gallerySection.btn {
 .overlay:target {
     visibility: visible;
     opacity: 1;
+    display: block;
 }
 
 .popup {
@@ -1918,8 +1920,14 @@ section#gallerySection.btn {
     height: 85%;
     position: relative;
     transition: all 3s ease-in-out;
-
 }
+.popup:target {
+    display: block;
+}
+
+.popup:target + .overlay {
+    display: block;
+  }
 
 .popup h3 {
     margin-top: 0;
@@ -1929,7 +1937,7 @@ section#gallerySection.btn {
 
 .popup .close {
     position: absolute;
-    right: 30px;
+    right: 40px;
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;
