@@ -725,6 +725,11 @@ nav ul.nav-list li {
 
 }
 
+ul {
+    list-style: disc;
+    margin:20px
+    }
+
 
 header.jumbotron {
     position: relative;
